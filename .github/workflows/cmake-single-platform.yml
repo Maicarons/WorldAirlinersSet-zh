@@ -1,0 +1,61 @@
+name: Build and Package WAS
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:  # 手动触发
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    name: Build WorldAirlinersSet
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ 检出源码
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2️⃣ 安装依赖
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y cmake make g++ python3 python3-pip
+        pip install nml  # 安装 OpenTTD 的 NML 编译器
+
+    # 3️⃣ 配置 CMake
+    - name: Configure project
+      run: cmake -B build -DCMAKE_BUILD_TYPE=${{ env.BUILD_TYPE }}
+
+    # 4️⃣ 构建（包括 NML、GRF、Bundles）
+    - name: Build all targets
+      run: cmake --build build --target Bundles --config ${{ env.BUILD_TYPE }}
+
+    # 5️⃣ 打包结果
+    - name: Prepare package
+      run: |
+        mkdir -p package
+        cp -v build/bin/*.grf package/ || true
+        cp -v build/bin/*.tar* package/ || true
+        cp -v build/bin/*.txt package/ || true
+        ls -lh package
+
+    # 6️⃣ 上传构建产物（可下载）
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: WAS-${{ env.BUILD_TYPE }}
+        path: package/*
+
+    # 7️⃣ （可选）在 tag 推送时创建 GitHub Release 并附带产物
+    - name: Upload to GitHub Release
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v2
+      with:
+        files: package/*
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
