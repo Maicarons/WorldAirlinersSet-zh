@@ -26,3 +26,11 @@ grfid.exe
 
 #Generated custom tag file
 custom_tags.txt
+
+# Node / VitePress
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# WorkBuddy local memory & config (not project source)
+.workbuddy/

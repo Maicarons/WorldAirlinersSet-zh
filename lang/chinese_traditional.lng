@@ -1,0 +1,651 @@
+##grflangid 0x62
+STR_GRF_NAME :WAS {VERSION}
+STR_GRF_DESCRIPTION :{ORANGE}世界航空公司整合包 (WAS){}{SILVER}該套裝旨在呈現 OpenTTD 中近期與歷史時期的世界各國航空公司與飛機。{}{BLACK}程序設計: {SILVER}Beardie, DJNekkid, Faddypainter, Frank, George, Rens, Huub 和 Yorick{}{BLACK}圖形設計: {SILVER}Beardie, Dimme, EXTSpotter, Faddypainter, Frank, Firzafp, Getuouk, Giles, RvP93, Simozzz, Huub, Trainboy2004 和 Vlad{}大多數圖形最初來自 PikkaBirds 的 AV8 套裝，使用時請署名。所有貢獻者信息可在 README 文件中找到。
+STR_GRF_URL :http://dev.openttdcoop.org/projects/worldairlinersset
+STR_MIN_OPENTTD_VERSION :1.2.0.23744
+
+# # DO NOT USE TABS IN LNG FILE! 
+
+# # -------- PARAMS AND PARAMS MENU --------
+STR_PARAM_NAME_ENABLE_STANDARD_PLANES                            :啟用標準飛機
+STR_PARAM_DESC_ENABLE_STANDARD_PLANES                            :啟用所有標準飛機
+STR_PARAM_NAME_ENABLE_RANGES                                     :啟用航程設置
+STR_PARAM_DESC_ENABLE_RANGES                                     :啟用航程設置（即限制飛機最大飛行距離）
+STR_PARAM_NAME_RANGES                                            :航程限制
+STR_PARAM_DESC_RANGES                                            :設置航程限制為正常、加長或關閉
+STR_PARAM_VALUE_RANGES_OFF                                       :關閉航程
+STR_PARAM_VALUE_RANGES_NORMAL                                    :正常航程
+STR_PARAM_VALUE_RANGES_LONG                                      :加長航程
+STR_PARAM_BCOSTS_NAME                                            :購買成本系數
+STR_PARAM_BCOSTS_DESC                                            :指定購買成本變化（參數 0 表示 1/16，4 表示無變化，8 表示 16倍）
+STR_PARAM_RCOSTS_NAME                                            :運營成本系數
+STR_PARAM_RCOSTS_DESC                                            :指定運營成本變化（參數 0 表示 1/16，4 表示無變化，8 表示 16倍）
+
+#
+# -------- Aeroplanes --------
+STR_AIRV_AIRBUS_A300_600R                                       :空客 A300-600R
+STR_AIRV_AIRBUS_A300_600F                                       :空客 A300-600F
+STR_AIRV_AIRBUS_A310_200                                        :空客 A310-200
+STR_AIRV_AIRBUS_A310_200F                                       :空客 A310-200F
+STR_AIRV_AIRBUS_A310_300                                        :空客 A310-300
+STR_AIRV_AIRBUS_A310_300F                                       :空客 A310-300F
+STR_AIRV_AIRBUS_A318                                            :空客 A318
+STR_AIRV_AIRBUS_A319                                            :空客 A319
+STR_AIRV_AIRBUS_A320_100                                        :空客 A320-100
+STR_AIRV_AIRBUS_A320_200                                        :空客 A320-200
+STR_AIRV_AIRBUS_A320NEO                                         :空客 A320neo
+STR_AIRV_AIRBUS_A321_100                                        :空客 A321-100
+STR_AIRV_AIRBUS_A321_200                                        :空客 A321-200
+STR_AIRV_AIRBUS_A330_200                                        :空客 A330-200
+STR_AIRV_AIRBUS_A330_200F                                       :空客 A330-200F
+STR_AIRV_AIRBUS_A330_300                                        :空客 A330-300
+STR_AIRV_AIRBUS_A340_300                                        :空客 A340-300
+STR_AIRV_AIRBUS_A340_500                                        :空客 A340-500
+STR_AIRV_AIRBUS_A340_600                                        :空客 A340-600
+STR_AIRV_AIRBUS_A350_900                                        :空客 A350-900
+STR_AIRV_AIRBUS_A380_800                                        :空客 A380-800
+STR_AIRV_ANTONOV_124                                            :安東諾夫 安-124
+STR_AIRV_ANTONOV_225                                            :安東諾夫 安-225
+STR_AIRV_ATR_42_300                                             :ATR 42-300
+STR_AIRV_ATR_42_300F                                            :ATR 42-300F
+STR_AIRV_ATR_42_500                                             :ATR 42-500
+STR_AIRV_ATR_72_200                                             :ATR 72-200
+STR_AIRV_ATR_72_200F                                            :ATR 72-200F
+STR_AIRV_ATR_72_500                                             :ATR 72-500
+STR_AIRV_BAC_1_11_200                                           :BAC 1-11-200
+STR_AIRV_BAC_1_11_300                                           :BAC 1-11-300
+STR_AIRV_BAC_1_11_400                                           :BAC 1-11-400
+STR_AIRV_BAC_1_11_500                                           :BAC 1-11-500
+STR_AIRV_BAC_CONCORDE                                           :協和式超音速客機
+STR_AIRV_BAE_146_100                                            :英國宇航 146-100
+STR_AIRV_BAE_146_200                                            :英國宇航 146-200
+STR_AIRV_BAE_146_300                                            :英國宇航 146-300
+STR_AIRV_BAE_146_300QT                                          :英國宇航 146-300QT
+STR_AIRV_BOEING_707_320                                         :波音 707-320
+STR_AIRV_BOEING_707_420                                         :波音 707-420
+STR_AIRV_BOEING_717_200                                         :波音 717-200
+STR_AIRV_BOEING_727_100                                         :波音 727-100
+STR_AIRV_BOEING_727_200                                         :波音 727-200
+STR_AIRV_BOEING_727_200F                                        :波音 727-200F
+STR_AIRV_BOEING_737_100                                         :波音 737-100
+STR_AIRV_BOEING_737_200                                         :波音 737-200
+STR_AIRV_BOEING_737_200C                                        :波音 737-200C
+STR_AIRV_BOEING_737_300                                         :波音 737-300
+STR_AIRV_BOEING_737_300F                                        :波音 737-300F
+STR_AIRV_BOEING_737_400                                         :波音 737-400
+STR_AIRV_BOEING_737_500                                         :波音 737-500
+STR_AIRV_BOEING_737_600                                         :波音 737-600
+STR_AIRV_BOEING_737_700                                         :波音 737-700
+STR_AIRV_BOEING_737_800                                         :波音 737-800
+STR_AIRV_BOEING_737_900                                         :波音 737-900
+STR_AIRV_BOEING_737_900ER                                       :波音 737-900ER
+STR_AIRV_BOEING_737_MAX8                                        :波音 737 MAX 8
+STR_AIRV_BOEING_747_100                                         :波音 747-100
+STR_AIRV_BOEING_747_200                                         :波音 747-200
+STR_AIRV_BOEING_747_200M                                        :波音 747-200M
+STR_AIRV_BOEING_747_300                                         :波音 747-300
+STR_AIRV_BOEING_747_300M                                        :波音 747-300M
+STR_AIRV_BOEING_747_400                                         :波音 747-400
+STR_AIRV_BOEING_747_400D                                        :波音 747-400D
+STR_AIRV_BOEING_747_400ER                                       :波音 747-400ER
+STR_AIRV_BOEING_747_400BCF                                      :波音 747-400F BCF
+STR_AIRV_BOEING_747_400SCD                                      :波音 747-400F SCD
+STR_AIRV_BOEING_747_400ERF                                      :波音 747-400F ERF
+STR_AIRV_BOEING_747_400M                                        :波音 747-400M
+STR_AIRV_BOEING_747_8I                                          :波音 747-8I
+STR_AIRV_BOEING_747_8F                                          :波音 747-8F
+STR_AIRV_BOEING_757_200                                         :波音 757-200
+STR_AIRV_BOEING_757_200F                                        :波音 757-200F
+STR_AIRV_BOEING_767_200                                         :波音 767-200
+STR_AIRV_BOEING_767_200ER                                       :波音 767-200ER
+STR_AIRV_BOEING_767_300                                         :波音 767-300
+STR_AIRV_BOEING_767_300ER                                       :波音 767-300ER
+STR_AIRV_BOEING_767_400ER                                       :波音 767-400ER
+STR_AIRV_BOEING_767_300F                                        :波音 767-300F
+STR_AIRV_BOEING_777_200                                         :波音 777-200
+STR_AIRV_BOEING_777_200ER                                       :波音 777-200ER
+STR_AIRV_BOEING_777_200LR                                       :波音 777-200LR
+STR_AIRV_BOEING_777_200F                                        :波音 777-200F
+STR_AIRV_BOEING_777_300                                         :波音 777-300
+STR_AIRV_BOEING_777_300ER                                       :波音 777-300ER
+STR_AIRV_BOEING_787_8                                           :波音 787-8
+STR_AIRV_BOEING_787_9                                           :波音 787-9
+STR_AIRV_BOMBARDIER_CRJ100ER                                    :龐巴迪 CRJ-100ER
+STR_AIRV_BOMBARDIER_CRJ100LR                                    :龐巴迪 CRJ-100LR
+STR_AIRV_BOMBARDIER_CRJ200ER                                    :龐巴迪 CRJ-200ER
+STR_AIRV_BOMBARDIER_CRJ200LR                                    :龐巴迪 CRJ-200LR
+STR_AIRV_BOMBARDIER_CRJ700                                      :龐巴迪 CRJ-700
+STR_AIRV_BOMBARDIER_CRJ700ER                                    :龐巴迪 CRJ-700ER
+STR_AIRV_BOMBARDIER_CRJ900                                      :龐巴迪 CRJ-900
+STR_AIRV_BOMBARDIER_CRJ900ER                                    :龐巴迪 CRJ-900ER
+STR_AIRV_BOMBARDIER_CRJ900LR                                    :龐巴迪 CRJ-900LR
+STR_AIRV_BOMBARDIER_CRJ1000                                     :龐巴迪 CRJ 1000
+STR_AIRV_BOMBARDIER_CRJ1000EL                                   :龐巴迪 CRJ 1000EL
+STR_AIRV_BOMBARDIER_DASH_8_100                                  :龐巴迪 Dash 8-100
+STR_AIRV_BOMBARDIER_DASH_8_200                                  :龐巴迪 Dash 8-200
+STR_AIRV_BOMBARDIER_DASH_8_200Q                                 :龐巴迪 Dash 8-200Q
+STR_AIRV_BOMBARDIER_DASH_8_300                                  :龐巴迪 Dash 8-300
+STR_AIRV_BOMBARDIER_DASH_8_300Q                                 :龐巴迪 Dash 8-300Q
+STR_AIRV_BOMBARDIER_DASH_8_400Q                                 :龐巴迪 Dash 8-400Q
+STR_AIRV_EMBRAER_ERJ_145                                        :巴航工 E145
+STR_AIRV_EMBRAER_ERJ_170LR                                      :巴航工 E170 LR
+STR_AIRV_EMBRAER_ERJ_170STD                                     :巴航工 E170 STD
+STR_AIRV_EMBRAER_ERJ_175STD                                     :巴航工 E175 STD
+STR_AIRV_EMBRAER_ERJ_175LR                                      :巴航工 E175 LR
+STR_AIRV_EMBRAER_ERJ_190STD                                     :巴航工 E190 STD
+STR_AIRV_EMBRAER_ERJ_190LR                                      :巴航工 E190 LR
+STR_AIRV_EMBRAER_ERJ_190AR                                      :巴航工 E190 AR
+STR_AIRV_EMBRAER_ERJ_195STD                                     :巴航工 E195 STD
+STR_AIRV_EMBRAER_ERJ_195LR                                      :巴航工 E195 LR
+STR_AIRV_EMBRAER_ERJ_195AR                                      :巴航工 E195 AR
+STR_AIRV_FOKKER_70                                              :福克 70
+STR_AIRV_FOKKER_100                                             :福克 100
+STR_AIRV_LOCKHEED_L049_CONSTELLATION                            :洛克希德 L-049 超級星座
+STR_AIRV_ILYUSHIN_62                                            :伊爾-62
+STR_AIRV_ILYUSHIN_76                                            :伊爾-76
+STR_AIRV_DOUGLAS_DC_8_10                                        :道格拉斯 DC-8-10
+STR_AIRV_DOUGLAS_DC_8_20                                        :道格拉斯 DC-8-20
+STR_AIRV_DOUGLAS_DC_8_30                                        :道格拉斯 DC-8-30
+STR_AIRV_DOUGLAS_DC_8_40                                        :道格拉斯 DC-8-40
+STR_AIRV_DOUGLAS_DC_8_50                                        :道格拉斯 DC-8-50
+STR_AIRV_DOUGLAS_DC_9_10                                        :道格拉斯 DC-9-10
+STR_AIRV_DOUGLAS_DC_9_20                                        :道格拉斯 DC-9-20
+STR_AIRV_DOUGLAS_DC_9_30                                        :道格拉斯 DC-9-30
+STR_AIRV_DOUGLAS_DC_9_40                                        :道格拉斯 DC-9-40
+STR_AIRV_DOUGLAS_DC_9_50                                        :道格拉斯 DC-9-50
+STR_AIRV_DOUGLAS_DC_10_10                                       :道格拉斯 DC-10-10
+STR_AIRV_DOUGLAS_DC_10_30                                       :道格拉斯 DC-10-30
+STR_AIRV_DOUGLAS_DC_10_40                                       :道格拉斯 DC-10-40
+STR_AIRV_MCDONNELL_DOUGLAS_MD_81                                :麥道 MD-81
+STR_AIRV_MCDONNELL_DOUGLAS_MD_82                                :麥道 MD-82
+STR_AIRV_MCDONNELL_DOUGLAS_MD_83                                :麥道 MD-83
+STR_AIRV_MCDONNELL_DOUGLAS_MD_87                                :麥道 MD-87
+STR_AIRV_MCDONNELL_DOUGLAS_MD_88                                :麥道 MD-88
+STR_AIRV_MCDONNELL_DOUGLAS_MD_90                                :麥道 MD-90
+STR_AIRV_MCDONNELL_DOUGLAS_DC_10_30                             :麥道 DC 10-30
+STR_AIRV_MCDONNELL_DOUGLAS_MD_11                                :麥道 MD-11
+STR_AIRV_MCDONNELL_DOUGLAS_MD_11F                               :麥道 MD-11F
+STR_AIRV_SUD_CARAVELLE_III                                      :SUD 卡拉維爾 III
+STR_AIRV_TUPOLEV_TU134                                          :圖波列夫 圖-134
+STR_AIRV_TUPOLEV_TU154B                                         :圖波列夫 圖-154B
+STR_AIRV_TUPOLEV_TU154M                                         :圖波列夫 圖-154M
+STR_AIRV_BOEING_TEST                                            :Test
+#
+# -------- Helicopters --------
+STR_AIRV_SKYLIFT_150                                            :SkyLift 150
+#
+# ------- 出廠塗裝 Names -------
+STR_VLIV_MANUFACTURERS                                          :製造商
+STR_VLIV_AIRBUS                                                 :空客 出廠塗裝
+STR_VLIV_ANTONOV                                                :安東諾夫 出廠塗裝
+STR_VLIV_ATR                                                    :ATR 出廠塗裝
+STR_VLIV_BAC                                                    :BAC 出廠塗裝
+STR_VLIV_BAE                                                    :BAe 出廠塗裝
+STR_VLIV_BOEING                                                 :波音 出廠塗裝
+STR_VLIV_BOMBARDIER                                             :龐巴迪 出廠塗裝
+STR_VLIV_EMBRAER                                                :巴航工 出廠塗裝
+STR_VLIV_DOUGLAS                                                :道格拉斯 出廠塗裝
+STR_VLIV_FOKKER                                                 :福克 出廠塗裝
+STR_VLIV_LOCKHEED                                               :洛克希德 出廠塗裝
+STR_VLIV_ILYUSHIN                                               :伊留申 出廠塗裝
+STR_VLIV_MCDONNEL_DOUGLAS                                       :麥道 出廠塗裝
+STR_VLIV_SUD                                                    :SUD 出廠塗裝
+STR_VLIV_TUPOLEV                                                :圖波列夫 出廠塗裝
+STR_VLIV_WAS                                                    :WAS 七週年紀念塗裝
+#
+# All Airlines
+STR_VLIV_AB_AIRLINES                                            :AB航空
+STR_VLIV_ADRIA_AIRWAYS                                          :阿德里亞航空
+STR_VLIV_AEGEAN_AIRLINES                                        :愛琴海航空
+STR_VLIV_AER_ARRAN_ORIGINAL                                     :愛爾蘭阿倫航空（原版）
+STR_VLIV_AER_ARRAN_RINGED_DESIGN                                :愛爾蘭阿倫航空（環形設計）
+STR_VLIV_AER_AZUR_AIR                                           :藍天航空
+STR_VLIV_AER_LINGUS                                             :愛爾蘭航空
+STR_VLIV_AER_LINGUS_REGIONAL                                    :愛爾蘭地區航空
+STR_VLIV_AEROFLOT                                               :俄羅斯航空
+STR_VLIV_AEROFLOT_OLD                                           :俄羅斯航空（舊版）
+STR_VLIV_AEROLINEAS_ARGENTINAS                                  :阿根廷航空
+STR_VLIV_AEROLOGIC                                              :邏輯航空
+STR_VLIV_AEROMEXICO                                             :墨西哥航空
+STR_VLIV_AEROPOSTAL                                             :委內瑞拉郵政航空
+STR_VLIV_AIR_AFRIQUE                                            :非洲航空
+STR_VLIV_AIR_ALGERIE                                            :阿爾及利亞航空
+STR_VLIV_AIR_ARABIA                                             :阿拉伯航空
+STR_VLIV_AIR_ASIA                                               :亞洲航空
+STR_VLIV_AIR_ASTANA                                             :阿斯塔納航空
+STR_VLIV_AIR_AUSTRAL                                            :留尼旺南方航空
+STR_VLIV_AIR_BALTIC                                             :波羅的海航空
+STR_VLIV_AIR_BERLIN                                             :柏林航空
+STR_VLIV_AIR_BERLIN_INTERIM                                     :柏林航空 (臨時)
+STR_VLIV_AIR_BERLIN_NEW                                         :柏林航空 (新版)
+STR_VLIV_AIR_CAIRO                                              :開羅航空
+STR_VLIV_AIR_CANADA                                             :加拿大航空
+STR_VLIV_AIR_CANADA_97_06                                       :加拿大航空 97-06
+STR_VLIV_AIR_CANADA_NEW                                         :加拿大航空 (New)
+STR_VLIV_AIR_CANADA_ROUGE                                       :加拿大胭脂航空
+STR_VLIV_AIR_CHINA                                              :中國航空
+STR_VLIV_AIR_CHINA_CARGO                                        :中國貨運航空
+STR_VLIV_AIR_COMET                                              :彗星航空
+STR_VLIV_AIR_CONTRACTORS                                        :空運承包商航空
+STR_VLIV_AIR_DECCAN                                             :德干航空
+STR_VLIV_AIR_DO                                                 :AIRDO (北海道航空)
+STR_VLIV_AIR_DOLOMITI                                           :多洛米蒂航空
+STR_VLIV_AIR_EUROPA                                             :西班牙歐洲航空
+STR_VLIV_AIR_EUROPA_OLD                                         :西班牙歐洲航空 (舊)
+STR_VLIV_AIR_FLORIDA                                            :佛羅里達航空
+STR_VLIV_AIR_FRANCE                                             :法國航空
+STR_VLIV_AIR_FRANCE_CARGO                                       :法航貨運
+STR_VLIV_AIR_GREENLAND                                          :格陵蘭航空
+STR_VLIV_AIR_HOLLAND                                            :荷蘭航空
+STR_VLIV_AIR_INDIA                                              :印度航空
+STR_VLIV_AIR_INDIA_OLD                                          :印度航空 (舊)
+STR_VLIV_AIR_INDIA_REGIONAL                                     :印度聯盟航空
+STR_VLIV_AIR_INTER                                              :因特航空
+STR_VLIV_AIR_ITALY                                              :意大利航空 (Air Italy)
+STR_VLIV_AIR_KORYO                                              :高麗航空
+STR_VLIV_AIR_LIBERTE                                            :自由航空
+STR_VLIV_AIR_MACAU                                              :澳門航空
+STR_VLIV_AIR_MALTA                                              :馬耳他航空
+STR_VLIV_AIR_NAMIBIA                                            :納米比亞航空
+STR_VLIV_AIR_NAURU                                              :瑙魯航空
+STR_VLIV_AIR_NELSON                                             :尼爾森航空 (新西蘭航空 Link)
+STR_VLIV_AIR_NEW_ZEALAND                                        :紐西蘭航空
+STR_VLIV_AIR_NIUGINI                                            :新幾內亞航空
+STR_VLIV_AIR_NOSTRUM_IBERIA_REGIONAL                            :諾斯特姆航空 (伊比利亞區域航空)
+STR_VLIV_AIR_NOSTRUM_IBERIA_REGIONAL_OLD                        :諾斯特姆航空 (舊) (伊比利亞區域航空)
+STR_VLIV_AIR_ONE                                                :第一航空
+STR_VLIV_AIR_PACIFIC                                            :斐濟太平洋航空
+STR_VLIV_AIR_PEACE                                              :和平航空
+STR_VLIV_AIR_PLUS_COMET                                         :西班牙紅風箏航空
+STR_VLIV_AIR_SERBIA                                             :塞爾維亞航空
+STR_VLIV_AIR_SEYCHELLES                                         :塞舌爾航空
+STR_VLIV_AIR_SLOVAKIA                                           :斯洛伐克航空
+STR_VLIV_AIR_SOUTHWEST                                          :英國西南航空
+STR_VLIV_AIR_SPAIN                                              :西班牙航空
+STR_VLIV_AIR_TAHITI_NUI                                         :大溪地航空
+STR_VLIV_AIR_TRANSAT                                            :越洋航空
+STR_VLIV_AIR_UKRAINE                                            :烏克蘭航空
+STR_VLIV_AIR_USSR                                               :蘇聯安東諾夫設計局
+STR_VLIV_AIR_VIA                                                :維亞航空
+STR_VLIV_AIRBRIDGE                                              :空橋貨運航空
+STR_VLIV_AIRLINAIR_AIR_FRANCE                                   :艾爾連航空 (法航)
+STR_VLIV_AIRZENA_GEORGIAN_AIRLINES                              :格魯吉亞航空
+STR_VLIV_ALASKA_AIRLINES                                        :阿拉斯加航空
+STR_VLIV_ALASKA_AIRLINES_DISNEY_SPECIAL                         :阿拉斯加航空 (迪士尼)
+STR_VLIV_ALBASTAR                                               :阿爾巴之星航空
+STR_VLIV_ALBAWINGS                                              :阿爾巴之翼航空
+STR_VLIV_ALITALIA                                               :義大利航空
+STR_VLIV_ALITALIA_CITY                                          :意大利航空 (Alitalia) Cityliner
+STR_VLIV_ALITALIA_OLD                                           :意大利航空 (舊)
+STR_VLIV_ALLEGIANT_AIR                                          :忠實航空
+STR_VLIV_ALLIANCE_AIRLINES                                      :澳洲聯盟航空
+STR_VLIV_ALROSA                                                 :阿爾羅薩航空
+STR_VLIV_AMASZONAS_PARAGUAY                                     :帕拉奈爾航空 (Amaszonas Paraguay)
+STR_VLIV_AMC_AVIATION                                           :AMC 航空
+STR_VLIV_AMERICAN_AIRLINES                                      :美國航空
+STR_VLIV_AMERICAN_AIRLINES_OLD                                  :美國航空 (舊)
+STR_VLIV_AMERICAN_EAGLE                                         :美鷹航空
+STR_VLIV_AMSTERDAM_AIRLINES                                     :阿姆斯特丹航空
+STR_VLIV_ANA                                                    :全日空
+STR_VLIV_ANA_GOLD                                               :全日空 Gold 出廠塗裝
+STR_VLIV_ANA_PIKACHU_LIVERY_2005                                :全日空 皮卡丘 出廠塗裝 (2005)
+STR_VLIV_ANA_POKEMON_LIVERY_1999                                :全日空 寶可夢 出廠塗裝 (1999)
+STR_VLIV_ANA_WAVES                                              :全日空 Waves - 第一架 777-300
+STR_VLIV_ANADOLUJET                                             :阿納多盧航空
+STR_VLIV_ANSETT_NEW_ZEALAND                                     :新西蘭安捷航空
+STR_VLIV_ANTONOV_UKRAINE                                        :安東諾夫設計局 (烏克蘭)
+STR_VLIV_ARIANA_AFGHAN_AIRLINES                                 :阿里亞納阿富汗航空
+STR_VLIV_ARIK_AIR                                               :阿瑞克航空
+STR_VLIV_ARKAS                                                  :阿爾卡斯航空
+STR_VLIV_ARKE_FLY                                               :阿克航空
+STR_VLIV_ASIANA_AIRLINES                                        :韓亞航空
+STR_VLIV_ASTRA_AIRWAYS                                          :阿斯特拉航空
+STR_VLIV_ASTRAEUS                                               :阿斯特雷斯航空
+STR_VLIV_ATLANTIC_AIRWAYS                                       :大西洋航空
+STR_VLIV_AURIGNY_AIR_SERVICES                                   :奧爾德尼航空
+STR_VLIV_AUSTRAL_LINEAS_AEREAS                                  :南方航線航空
+STR_VLIV_AUSTRIAN_AIRLINES                                      :奧地利航空
+STR_VLIV_AUSTRIAN_AIRLINES_OLD                                  :奧地利航空 (舊)
+STR_VLIV_AUSTRIAN_AIRLINES_RETRO                                :奧地利航空 Retro
+STR_VLIV_AUSTRIAN_ARROWS                                        :奧地利飛箭航空
+STR_VLIV_AVIACO                                                 :西班牙商業航空
+STR_VLIV_AVIANCA                                                :哥倫比亞航空
+STR_VLIV_AVIOGENEX                                              :阿維奧基內克斯航空
+STR_VLIV_AZERBAIJAN_AIRLINES                                    :阿塞拜疆航空
+STR_VLIV_AZUR_AIR                                               :蔚藍航空
+STR_VLIV_AZUR_AIR_UKRAINE                                       :蔚藍航空（烏克蘭）
+STR_VLIV_BA_WORLD_CARGO                                         :英國航空貨運
+STR_VLIV_BADR_AIRLINES                                          :巴德爾航空
+STR_VLIV_BAL_BASHKIRIAN                                         :巴什基爾航空
+STR_VLIV_BALAIR                                                 :巴爾航空
+STR_VLIV_BALKAN_BULGARIAN                                       :巴爾幹保加利亞航空
+STR_VLIV_BALKAN_BULGARIAN_OLD                                   :巴爾幹保加利亞航空（舊）
+STR_VLIV_BAVARIA_GERMANAIR                                      :巴伐利亞德國航空
+STR_VLIV_BELAVIA                                                :白俄羅斯航空
+STR_VLIV_BELAVIA_OLD                                            :白俄羅斯航空（舊）
+STR_VLIV_BIMAN_BANGLADESH_AIRLINES                              :孟加拉航空
+STR_VLIV_BINTER_CANARIAS                                        :賓特航空
+STR_VLIV_BIRGENAIR                                              :碧根航空
+STR_VLIV_BLUE1                                                  :藍一航空
+STR_VLIV_BLUE_AIR                                               :藍色航空
+STR_VLIV_BLUEBIRD_AIRWAYS                                       :藍鳥航空
+STR_VLIV_BMI_BABY                                               :BMI 寶貝航空
+STR_VLIV_BMI_OLD                                                :BMI (舊)
+STR_VLIV_BOAC                                                   :英國海外航空
+STR_VLIV_BRANIFF                                                :布蘭尼夫國際航空
+STR_VLIV_BRITAIR                                                :不列顛航空（法國航空）
+STR_VLIV_BRITISH_AIRTOURS                                       :英國航空旅遊
+STR_VLIV_BRITISH_AIRWAYS_CITYFLYER                              :英國航空城市快線
+STR_VLIV_BRITISH_AIRWAYS_LANDOR                                 :英國航空（Landor）
+STR_VLIV_BRITISH_AIRWAYS_LANDOR_RED                             :英國航空（Landor 紅）
+STR_VLIV_BRITISH_AIRWAYS_NEGUS                                  :英國航空（Negus）
+STR_VLIV_BRITISH_AIRWAYS_UNION_FLAG                             :英國航空（米字旗）
+STR_VLIV_BRITISH_AIRWAYS_UNION_FLAG_COMAIR                      :英國航空 米字旗（Comair）
+STR_VLIV_BRITISH_CALEDONIAN                                     :英國喀裡多尼亞航空
+STR_VLIV_BRUSSELS_AIRLINES                                      :布魯塞爾航空
+STR_VLIV_BULGARIA_AIR                                           :保加利亞航空
+STR_VLIV_BUZZ                                                   :蜂鳴航空
+STR_VLIV_CARGOLUX                                               :盧森堡貨運航空
+STR_VLIV_CARPATAIR                                              :喀爾巴阡航空
+STR_VLIV_CATHAY_PACIFIC                                         :國泰航空
+STR_VLIV_CATHAY_PACIFIC_CARGO                                   :國泰航空貨運
+STR_VLIV_CHANNEL_EXPRESS                                        :海峽快運航空
+STR_VLIV_CHINA_AIRLINES                                         :中華航空
+STR_VLIV_CHINA_AIRLINES_CARGO                                   :中華航空貨運
+STR_VLIV_CHINA_EASTERN                                          :中國東方航空
+STR_VLIV_CHINA_SOUTHERN                                         :中國南方航空
+STR_VLIV_CHINA_WEST_AIR                                         :中國西部航空
+STR_VLIV_CLAN_MEGA                                              :麥加部族航空
+STR_VLIV_CLICKAIR                                               :點擊航空
+STR_VLIV_CONDOR                                                 :神鷹航空
+STR_VLIV_CONDOR_BERLIN                                          :神鷹柏林航空
+STR_VLIV_CONTINENTAL                                            :美國大陸航空
+STR_VLIV_CONTINENTAL_OLD                                        :美國大陸航空 (舊)
+STR_VLIV_CONVIASA                                               :委內瑞拉聯合航空
+STR_VLIV_COPA_AIRLINES                                          :巴拿馬航空
+STR_VLIV_CORENDON_AIRLINES                                      :科倫登航空
+STR_VLIV_CROATIA_AIRLINES                                       :克羅地亞航空
+STR_VLIV_CUBANA_DE_AVIACION                                     :古巴航空
+STR_VLIV_CYGNUS                                                 :天鵝航空
+STR_VLIV_CYPRUS_AIRWAYS                                         :塞浦路斯航空
+STR_VLIV_CYPRUS_AIRWAYS_OLD                                     :塞浦路斯航空 (舊)
+STR_VLIV_CZECH_AIRLINES                                         :捷克航空
+STR_VLIV_DAN_AIR_LONDON                                         :倫敦丹航空
+STR_VLIV_DBA                                                    :DBA 航空
+STR_VLIV_DELTA_AIR_LINES                                        :達美航空
+STR_VLIV_DELTA_CONNECTION                                       :達美連接航空
+STR_VLIV_DHL                                                    :DHL
+STR_VLIV_DRAGONAIR                                              :港龍航空
+STR_VLIV_DUTCH_ANTILLES_EXPRESS                                 :荷屬安的列斯快運航空
+STR_VLIV_EASTERN_AIR_LINES                                      :美國東方航空
+STR_VLIV_EASYJET                                                :易捷航空
+STR_VLIV_EASYJET_OLD                                            :易捷航空 (舊)
+STR_VLIV_ECAIR                                                  :剛果航空
+STR_VLIV_EGYPT_AIR                                              :埃及航空
+STR_VLIV_EGYPT_AIR_OLD                                          :埃及航空 (舊)
+STR_VLIV_EL_AL_ISRAEL_AIRLINES                                  :以色列航空
+STR_VLIV_ELLINAIR                                               :希臘航空
+STR_VLIV_EMIRATES                                               :阿拉伯聯合大公國航空
+STR_VLIV_EMIRATES_SKYCARGO                                      :阿聯酋航空貨運
+STR_VLIV_ENTER_AIR                                              :安特航空
+STR_VLIV_ESTONIAN                                               :愛沙尼亞航空
+STR_VLIV_ETF_AIRLINES                                           :ETF 航空
+STR_VLIV_ETHIOPIAN_AIRLINES                                     :埃塞俄比亞航空
+STR_VLIV_ETIHAD_AIRWAYS                                         :阿提哈德航空
+STR_VLIV_ETIHAD_AIRWAYS_ABU_DHABI_FORMULA_1                     :阿提哈德航空（阿布扎比一級方程式）
+STR_VLIV_EUROATLANTIC_AIRWAYS                                   :歐洲大西洋航空
+STR_VLIV_EUROLOT                                                :歐羅羅特航空
+STR_VLIV_EUROATLANTIC                                           :歐洲大西洋航空
+STR_VLIV_EUROPEAN_AIRCHARTER                                    :歐洲航空包機
+STR_VLIV_EUROWINGS                                              :歐洲之翼航空
+STR_VLIV_EVA_AIR                                                :長榮航空
+STR_VLIV_EVA_AIR_CARGO                                          :長榮航空貨運
+STR_VLIV_EVELOP                                                 :埃維洛普航空
+STR_VLIV_FARNAIR_EUROPE                                         :法恩歐洲航空
+STR_VLIV_FEDEX                                                  :聯邦快遞
+STR_VLIV_FEDEX_OLD                                              :聯邦快遞 (舊)
+STR_VLIV_FIJI_AIRWAYS                                           :斐濟航空
+STR_VLIV_FINNAIR                                                :芬蘭航空
+STR_VLIV_FINNAIR_MOOMIN_STICKERS                                :芬蘭航空 - Special Moomin Stickers 出廠塗裝
+STR_VLIV_FINNAIR_OLD                                            :芬蘭航空 (舊)
+STR_VLIV_FLYBE                                                  :弗萊比航空
+STR_VLIV_FLY_BAGHDAD                                            :巴格達航空
+STR_VLIV_FLYDUBAI                                               :迪拜航空
+STR_VLIV_FLYEGYPT                                               :飛埃及航空
+STR_VLIV_FLYGLOBESPAN                                           :環球飛鷹航空
+STR_VLIV_FLYNORDIC                                              :飛北歐航空
+STR_VLIV_FLYR                                                   :Flyr 航空
+STR_VLIV_FRONTIER_AIRLINES                                      :邊疆航空
+STR_VLIV_FRONTIER_AIRLINES_RACOON_FOX                           :邊疆航空 (Racoon + Fox)
+STR_VLIV_FUTURA                                                 :未來航空
+STR_VLIV_GARUDA_INDONESIA                                       :印尼鷹航
+STR_VLIV_GERMANIA                                               :日耳曼尼亞航空
+STR_VLIV_GERMANWINGS                                            :德國之翼航空
+STR_VLIV_GERMANWINGS_OLD                                        :德國之翼航空 (舊)
+STR_VLIV_GIRJET                                                 :吉爾航空
+STR_VLIV_GOL                                                    :高爾航空
+STR_VLIV_GREAT_DANE                                             :大丹航空
+STR_VLIV_GULF_AIR                                               :海灣航空
+STR_VLIV_HAINAN_AIRLINES                                        :海南航空
+STR_VLIV_HAPAG_LLOYD                                            :赫伯羅特航空
+STR_VLIV_HAWAIIAN_AIRLINES                                      :夏威夷航空
+STR_VLIV_HELLENIC_IMPERIAL_AIRWAYS                              :希臘帝國航空
+STR_VLIV_HELLO                                                  :哈羅航空
+STR_VLIV_HELVETIC_AIRWAYS                                       :赫勒維蒂克航空
+STR_VLIV_HELVETIC_AIRWAYS_OLD                                   :赫勒維蒂克航空 (舊)
+STR_VLIV_HIGHLAND_EXPRESS                                       :高地快運航空
+STR_VLIV_HISKY                                                  :海天航空
+STR_VLIV_HISPANIA                                               :伊斯帕尼亞航空
+STR_VLIV_HOP                                                    :HOP! 航空
+STR_VLIV_IBERIA                                                 :西班牙國家航空
+STR_VLIV_IBERIA_OLD                                             :西班牙國家航空 (舊)
+STR_VLIV_IBERWORLD                                              :伊比利亞世界航空
+STR_VLIV_ICELANDAIR                                             :冰島航空
+STR_VLIV_ICELANDAIR_CARGO                                       :冰島航空貨運
+STR_VLIV_INDIAN_AIRLINES                                        :印度人航空
+STR_VLIV_INDIGO                                                 :靛藍航空
+STR_VLIV_INSEL_AIR                                              :英塞爾航空
+STR_VLIV_INTERFLUG                                              :東德航空
+STR_VLIV_IRAN_AIR                                               :伊朗航空
+STR_VLIV_IRAN_ASEMAN_AIRLINES                                   :伊朗阿塞曼航空
+STR_VLIV_IRAQI_AIRWAYS                                          :伊拉克航空
+STR_VLIV_JAL                                                    :日本航空
+STR_VLIV_JAL_GREEN                                              :日航 Green
+STR_VLIV_JAPAN_AIR_SYSTEM                                       :日本佳速航空
+STR_VLIV_JAT_AIRWAYS                                            :賈特航空
+STR_VLIV_JAZZ                                                   :爵士航空
+STR_VLIV_JET_AIRWAYS                                            :印度捷特航空
+STR_VLIV_JET_TIME                                               :捷時航空
+STR_VLIV_JET2                                                   :Jet2航空
+STR_VLIV_JETAIRFLY                                              :捷特飛航空 (Jetairfly)
+STR_VLIV_JETBLUE                                                :捷藍航空
+STR_VLIV_JETSTAR_AIRWAYS                                        :捷星航空
+STR_VLIV_KALITTA_AIR                                            :卡利塔航空
+STR_VLIV_KENYA_AIRWAYS                                          :肯尼亞航空
+STR_VLIV_KLM                                                    :荷蘭皇家航空
+STR_VLIV_KLM_CARGO                                              :荷蘭皇家航空貨運
+STR_VLIV_KLM_CITYHOPPER                                         :荷蘭皇家航空 Cityhopper
+STR_VLIV_KLM_RETRO_LIVERY                                       :荷蘭皇家航空 Retro 出廠塗裝
+STR_VLIV_KMV                                                    :KMV 航空
+STR_VLIV_KOREAN_AIR                                             :大韓航空
+STR_VLIV_KOREAN_AIR_CARGO                                       :大韓航空貨運
+STR_VLIV_KUBAN_AIRLINES                                         :庫班航空
+STR_VLIV_KULULA                                                 :庫魯拉航空
+STR_VLIV_KUWAIT_AIRWAYS                                         :科威特航空
+STR_VLIV_LA_COMPAGNIE                                           :法國商務航空
+STR_VLIV_LAGUNAIR                                               :拉古納航空
+STR_VLIV_LAKER_AIRWAYS                                          :萊克航空
+STR_VLIV_LAN_AIRLINES                                           :智利國家航空
+STR_VLIV_LAN_CARGO                                              :智利國家航空貨運
+STR_VLIV_LATAM                                                  :拉塔姆航空
+STR_VLIV_LAUDA                                                  :勞達航空
+STR_VLIV_LAUDA_EUROPE                                           :勞達歐洲
+STR_VLIV_LEVEL                                                  :水平航空
+STR_VLIV_LIBYAN_AIRLINES                                        :利比亞航空
+STR_VLIV_LION_AIR                                               :印尼獅子航空
+STR_VLIV_LOT                                                    :波蘭航空
+STR_VLIV_LUFTHANSA                                              :漢莎航空
+STR_VLIV_LUFTHANSA_PREVIOUS                                     :漢莎航空 (舊)
+STR_VLIV_LUFTHANSA_REGIONAL                                     :漢莎航空 Regional
+STR_VLIV_LUFTHANSA_RETRO                                        :漢莎航空 (Retro)
+STR_VLIV_LUXAIR                                                 :盧森堡航空
+STR_VLIV_MAHAN_AIR                                              :馬漢航空
+STR_VLIV_MALAYSIA_AIRLINES                                      :馬來西亞航空
+STR_VLIV_MALEV                                                  :匈牙利航空
+STR_VLIV_MALEV_OLD                                              :馬雷夫航空（舊）
+STR_VLIV_MALMO_AVIATION                                         :馬爾默航空
+STR_VLIV_MALMO_AVIATION_SVENSK_FOOTBALL                         :馬爾默航空（瑞典足球）
+STR_VLIV_MARTINAIR                                              :馬丁航空
+STR_VLIV_MARTINAIR_CARGO                                        :馬丁航空貨運
+STR_VLIV_MAT_MACEDONIAN                                         :馬其頓航空
+STR_VLIV_MAURITANIA_AIRLINES                                    :毛里塔尼亞國際航空
+STR_VLIV_MERIDIANA                                              :意大利子午線航空
+STR_VLIV_METROJET                                               :美捷香港
+STR_VLIV_MEXICANA                                               :墨西哥航空
+STR_VLIV_MIDDLE_EAST_AIRLINES                                   :黎巴嫩中東航空
+STR_VLIV_MIDDLE_EAST_AIRLINES_OLD                               :黎巴嫩中東航空 (舊)
+STR_VLIV_MONARCH_AIRLINES                                       :君主航空
+STR_VLIV_MONTENEGRO_AIRLINES                                    :黑山航空
+STR_VLIV_MYWINGS                                                :我的翅膀航空
+STR_VLIV_NEOS                                                   :勒奧斯航空
+STR_VLIV_NIKI                                                   :尼基航空
+STR_VLIV_NIPPON_CARGO_AIRLINES                                  :日本貨運航空
+STR_VLIV_NIPPON_CARGO_AIRLINES_GREEN_FREIGHTER                  :日本貨運航空 (綠色貨機)
+STR_VLIV_NORDSTAR_AIRLINES                                      :北方之星航空
+STR_VLIV_NORDWIND_AIRLINES                                      :北風航空
+STR_VLIV_NORTHWEST_AIRLINES                                     :美國西北航空
+STR_VLIV_NORTHWEST_AIRLINK                                      :美國西北聯合航空
+STR_VLIV_NORWEGIAN_AIR                                          :挪威穿梭航空
+STR_VLIV_NORWEGIAN_LONG_HAUL                                    :挪威長途航空
+STR_VLIV_OLYMPIC_AIR                                            :奧林匹克航空
+STR_VLIV_OLYMPIC_AIRLINES                                       :希臘國營航空
+STR_VLIV_OMAN_AIR                                               :阿曼航空
+STR_VLIV_OMNI_AIR_INTERNATIONAL                                 :全能國際航空
+STR_VLIV_ONUR_AIR                                               :奧努爾航空
+STR_VLIV_PALMAIR                                                :帕爾馬航空
+STR_VLIV_PAN_AMERICAN_WORLD_AIRWAYS                             :泛美航空
+STR_VLIV_PEGAS_FLY                                              :飛馬飛航空
+STR_VLIV_PEGASUS                                                :飛馬航空
+STR_VLIV_PEOPLEXPRESS                                           :人民快運航空
+STR_VLIV_PERUVIAN                                               :秘魯人航空
+STR_VLIV_PHILIPPINES_AIRLINES                                   :菲律賓航空
+STR_VLIV_PIA                                                    :巴基斯坦國際航空
+STR_VLIV_PLUS_ULTRA                                             :更進一步航空
+STR_VLIV_POBEDA                                                 :勝利航空
+STR_VLIV_PORTUGALIA                                             :葡萄牙利亞航空
+STR_VLIV_PRECISION_AIR_SERVICES                                 :精確航空
+STR_VLIV_PRIMERA_AIR                                            :普里梅拉航空
+STR_VLIV_PRIVILEGE_STYLE                                        :特權航空
+STR_VLIV_PSA                                                    :太平洋西南航空
+STR_VLIV_QANTAS                                                 :澳洲航空
+STR_VLIV_QANTAS_FREIGHT                                         :澳洲航空 Freight
+STR_VLIV_QANTAS_ONEWORLD                                        :澳洲航空 - Oneworld 出廠塗裝
+STR_VLIV_QANTAS_VJET                                            :澳洲航空 V-Jet
+STR_VLIV_QANTASLINK                                             :澳洲鏈接航空
+STR_VLIV_QANTASLINK_PINK_RIBBON                                 :澳洲鏈接航空（粉紅絲帶）
+STR_VLIV_QATAR_AIRWAYS                                          :卡達航空
+STR_VLIV_QATAR_AIRWAYS_CARGO                                    :卡塔爾航空貨運
+STR_VLIV_REGIONAL_CARGO                                         :區域貨運航空
+STR_VLIV_ROSSIYA_AIRLINES                                       :羅斯尼亞航空
+STR_VLIV_ROSSIYA_AIRLINES_OLD                                   :羅斯尼亞航空（舊）
+STR_VLIV_ROYAL_AIR_MAROC                                        :摩洛哥皇家航空
+STR_VLIV_ROYAL_AIR_MAROC_OLD                                    :摩洛哥皇家航空 (舊)
+STR_VLIV_ROYAL_BRUNEI_AIRLINES                                  :文萊皇家航空
+STR_VLIV_ROYAL_FLIGHT                                           :皇家航空
+STR_VLIV_ROYAL_JORDANIAN                                        :約旦皇家航空
+STR_VLIV_ROYAL_MAIL                                             :英國皇家郵政
+STR_VLIV_RWANDAIR                                               :盧旺達航空
+STR_VLIV_RYANAIR                                                :瑞安航空
+STR_VLIV_RYANAIR_OLD                                            :Ryanair (舊)
+STR_VLIV_S7_AIRLINES                                            :S7 西伯利亞航空
+STR_VLIV_S7_AIRLINES_OLD                                        :S7 西伯利亞航空 (舊)
+STR_VLIV_SABENA                                                 :薩貝納航空
+STR_VLIV_SAMOA_AIRWAYS                                          :薩摩亞航空
+STR_VLIV_SAS                                                    :北歐航空
+STR_VLIV_SATA                                                   :SATA 亞速爾航空
+STR_VLIV_SATENA                                                 :SATENA 航空
+STR_VLIV_SAUDI_ARABIAN_AIRLINES                                 :沙特阿拉伯航空
+STR_VLIV_SHADONG_AIRLINES                                       :山東航空
+STR_VLIV_SHENZHEN_AIRLINES                                      :深圳航空
+STR_VLIV_SINGAPORE_AIRLINES                                     :新加坡航空
+STR_VLIV_SKYMARK_AIRLINES                                       :天馬航空
+STR_VLIV_SKYUP                                                  :天空航空
+STR_VLIV_SKYWEST                                                :天西航空
+STR_VLIV_SLOK_AIR                                               :斯洛克航空
+STR_VLIV_SLOKAIR                                                :斯洛克國際航空
+STR_VLIV_SMALL_PLANET                                           :小星球航空
+STR_VLIV_SMART_WINGS                                            :智能之翼航空
+STR_VLIV_SOMON_AIR                                              :索蒙航空
+STR_VLIV_SOUTH_AFRICAN_AIRWAYS                                  :南非航空
+STR_VLIV_SOUTH_AFRICAN_CARGO                                    :南非貨運航空
+STR_VLIV_SOUTH_WEST_GOLD                                        :西南航空（金色）
+STR_VLIV_SOUTHWEST_AIRLINES                                     :西南航空
+STR_VLIV_SPANAIR                                                :斯潘航空
+STR_VLIV_SPANTAX                                                :西班牙包機航空
+STR_VLIV_SRILANKAN_AIRLINES                                     :斯里蘭卡航空
+STR_VLIV_SUDAN_AIRWAYS                                          :蘇丹航空
+STR_VLIV_SUNEXPRESS                                             :太陽快運航空
+STR_VLIV_SUNWING                                                :太陽之翼航空
+STR_VLIV_SURINAM_AIRWAYS                                        :蘇里南航空
+STR_VLIV_SWIFTAIR                                               :迅捷航空
+STR_VLIV_SWISSAIR                                               :瑞士航空
+STR_VLIV_SWISS_AIR                                              :瑞士航空
+STR_VLIV_SWISS                                                  :瑞士國際航空
+STR_VLIV_SWISS_INTERNATIONAL_AIRLINES                           :瑞士國際航空
+STR_VLIV_SYRIAN_ARAB_AIRLINES                                   :敘利亞航空
+STR_VLIV_TAAG_ANGOLA_AIRLINES                                   :安哥拉航空
+STR_VLIV_TAE                                                    :TAE 航空
+STR_VLIV_TAM_AIRLINES                                           :TAM 航空
+STR_VLIV_TAP                                                    :葡萄牙航空
+STR_VLIV_TAP_OLD                                                :葡萄牙航空 (舊)
+STR_VLIV_TAROM                                                  :羅馬尼亞航空
+STR_VLIV_TAROM_OLD                                              :羅馬尼亞航空 (舊)
+STR_VLIV_TASSILI_AIRLINES                                       :塔西利航空
+STR_VLIV_THAI_AIRWAYS_INTERNATIONAL                             :泰國國際航空
+STR_VLIV_THOMAS_COOK                                            :托馬斯·庫克航空
+STR_VLIV_THOMSON_AIRWAYS                                        :湯姆森航空
+STR_VLIV_TNT                                                    :TNT航空
+STR_VLIV_TRANSAERO                                              :環宇航空
+STR_VLIV_TRANSAVIA                                              :法國泛航航空
+STR_VLIV_TRANSAVIA_OLD                                          :Transavia (舊)
+STR_VLIV_TRAVEL_SERVICE                                         :旅行服務航空
+STR_VLIV_TUI                                                    :途易航空
+STR_VLIV_TUNISAIR                                               :突尼斯航空
+STR_VLIV_TURKISH_AIRLINES                                       :土耳其航空
+STR_VLIV_TURKISH_AIRLINES_OLD                                   :土耳其航空 (舊)
+STR_VLIV_TURKISH_AIRLINES_CARGO                                 :土耳其航空貨運
+STR_VLIV_TURKMENISTAN_AIRLINES                                  :土庫曼斯坦航空
+STR_VLIV_TWA                                                    :環球航空
+STR_VLIV_UKRAINE_INTERNATIONAL_AIRLINES                         :烏克蘭國際航空
+STR_VLIV_ULS_CARGO                                              :ULS 貨運航空
+STR_VLIV_UNITED_AIRLINES                                        :聯合航空
+STR_VLIV_UNITED_EXPRESS                                         :美聯航快運
+STR_VLIV_UPS                                                    :UPS
+STR_VLIV_URAL_AIRLINES                                          :烏拉爾航空
+STR_VLIV_US_AIRWAYS                                             :全美航空
+STR_VLIV_US_AIRWAYS_OLD                                         :全美航空 (舊)
+STR_VLIV_UTAIR                                                  :UTair 航空
+STR_VLIV_UZBEKISTAN_AIRWAYS                                     :烏茲別克斯坦航空
+STR_VLIV_V_AUSTRALIA                                            :V 澳大利亞航空
+STR_VLIV_VARIG                                                  :巴里格航空
+STR_VLIV_VIASA                                                  :委內瑞拉國際航空
+STR_VLIV_VIETNAM_AIRLINES                                       :越南航空
+STR_VLIV_VIM_AIRLINES                                           :維姆航空
+STR_VLIV_VIM_AIRLINES_OLD                                       :維姆航空 (舊)
+STR_VLIV_VIRGIN_ATLANTIC                                        :維珍航空
+STR_VLIV_VIRGIN_BLUE                                            :維珍藍航空
+STR_VLIV_VLADIVOSTOCK                                           :海參崴航空
+STR_VLIV_VOLGA_DNEPR                                            :伏爾加第聶伯航空
+STR_VLIV_VOLOTEA                                                :維羅提航空
+STR_VLIV_VUELING_AIRLINES                                       :伏林航空
+STR_VLIV_WAMOS                                                  :瓦莫斯航空
+STR_VLIV_WESTJET                                                :西捷航空
+STR_VLIV_WIDEROE                                                :威德羅航空
+STR_VLIV_WIZZ_AIR                                               :維茲航空
+STR_VLIV_WIZZ_AIR_OLD                                           :維茲航空 (舊)
+STR_VLIV_WOW_AIR                                                :沃奧航空
+STR_VLIV_XIAMEN_AIR                                             :廈門航空
+STR_VLIV_XL_AIRWAYS                                             :法國特大航空
+STR_VLIV_YAKUTIA_AIRLINES                                       :俄羅斯雅庫特航空
+STR_VLIV_YAMAL                                                  :亞馬爾航空
+STR_VLIV_YEMENIA                                                :也門航空
