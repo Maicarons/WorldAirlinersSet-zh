@@ -172,6 +172,8 @@ STR_AIRV_BOEING_TEST                                            :Test
 #
 # -------- Helicopters --------
 STR_AIRV_SKYLIFT_150                                            :SkyLift 150
+STR_AIRV_COMAC_C909                                              :COMAC C909
+STR_AIRV_COMAC_C919                                              :COMAC C919
 #
 # ------- Livery Names -------
 STR_VLIV_MANUFACTURERS                                          : Manufacturers
@@ -182,6 +184,7 @@ STR_VLIV_BAC                                                    : BAC Livery
 STR_VLIV_BAE                                                    : British Aerospace Livery
 STR_VLIV_BOEING                                                 : Boeing Livery
 STR_VLIV_BOMBARDIER                                             : Bombardier livery
+STR_VLIV_COMAC                                                  : COMAC Livery
 STR_VLIV_EMBRAER                                                : Embraer Livery
 STR_VLIV_DOUGLAS                                                : Douglas livery
 STR_VLIV_FOKKER                                                 : Fokker Livery

@@ -173,6 +173,8 @@ STR_AIRV_BOEING_TEST                                            :Test
 #
 # -------- Helicopters --------
 STR_AIRV_SKYLIFT_150                                            :SkyLift 150
+STR_AIRV_COMAC_C909                                              :中国商飞 C909
+STR_AIRV_COMAC_C919                                              :中国商飞 C919
 #
 # ------- 出厂涂装 Names -------
 STR_VLIV_MANUFACTURERS                                          :制造商
@@ -183,6 +185,7 @@ STR_VLIV_BAC                                                    :BAC 出厂涂�
 STR_VLIV_BAE                                                    :BAe 出厂涂装
 STR_VLIV_BOEING                                                 :波音 出厂涂装
 STR_VLIV_BOMBARDIER                                             :庞巴迪 出厂涂装
+STR_VLIV_COMAC                                                  :中国商飞 出厂涂装
 STR_VLIV_EMBRAER                                                :巴航工 出厂涂装
 STR_VLIV_DOUGLAS                                                :道格拉斯 出厂涂装
 STR_VLIV_FOKKER                                                 :福克 出厂涂装

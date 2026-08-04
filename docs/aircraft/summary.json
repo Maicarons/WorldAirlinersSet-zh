@@ -1,6 +1,6 @@
 {
-  "total_aircraft": 145,
-  "total_liveries": 1730,
+  "total_aircraft": 147,
+  "total_liveries": 1742,
   "manufacturers": [
     {
       "en": "Airbus",
@@ -85,6 +85,12 @@
       "zh": "图波列夫",
       "aircraft": 3,
       "liveries": 45
+    },
+    {
+      "en": "COMAC",
+      "zh": "COMAC",
+      "aircraft": 2,
+      "liveries": 12
     }
   ]
 }

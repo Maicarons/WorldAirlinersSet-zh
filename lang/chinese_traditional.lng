@@ -173,6 +173,8 @@ STR_AIRV_BOEING_TEST                                            :Test
 #
 # -------- Helicopters --------
 STR_AIRV_SKYLIFT_150                                            :SkyLift 150
+STR_AIRV_COMAC_C909                                              :中國商飛 C909
+STR_AIRV_COMAC_C919                                              :中國商飛 C919
 #
 # ------- 出廠塗裝 Names -------
 STR_VLIV_MANUFACTURERS                                          :製造商
@@ -183,6 +185,7 @@ STR_VLIV_BAC                                                    :BAC 出廠塗�
 STR_VLIV_BAE                                                    :BAe 出廠塗裝
 STR_VLIV_BOEING                                                 :波音 出廠塗裝
 STR_VLIV_BOMBARDIER                                             :龐巴迪 出廠塗裝
+STR_VLIV_COMAC                                                  :中國商飛 出廠塗裝
 STR_VLIV_EMBRAER                                                :巴航工 出廠塗裝
 STR_VLIV_DOUGLAS                                                :道格拉斯 出廠塗裝
 STR_VLIV_FOKKER                                                 :福克 出廠塗裝

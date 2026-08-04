@@ -1,0 +1,259 @@
+
+// COMAC-C919
+// 说明：C919（国产窄体干线客机）的真实机型逻辑与参数。
+// 图形目前复用 Airbus A320-200 的占位精灵表，
+// 待真实 C919 像素图绘制完成后替换 src/gfx/COMAC/C919/ 下的 PNG 即可，逻辑无需改动。
+
+// 占位模板（与 Airbus A320-200 完全一致，坐标对应占位 PNG 布局）
+#define COMAC_C919_sprite_layout_template(name)                          \
+spriteset (name##_Flight, IMAGEFILE)                                     \
+{                                                                        \
+  [  0, 0, 45, 23, -22, -10, ANIM]                                       \
+  [ 50, 0, 40, 21, -24, -9 , ANIM]                                       \
+  [100, 0, 48, 23, -26, -12, ANIM]                                       \
+  [160, 0, 39, 30, -25, -20, ANIM]                                       \
+  [210, 0, 45, 33, -22, -21, ANIM]                                       \
+  [260, 0, 39, 30, -14, -20, ANIM]                                       \
+  [310, 0, 48, 23, -22, -11, ANIM]                                       \
+  [370, 0, 40, 21, -16, -9 , ANIM]                                       \
+}                                                                        \
+spriteset (name##_Grounded, IMAGEFILE)                                   \
+{                                                                        \
+  [  0, 35, 45, 23, -22, -10, ANIM]                                      \
+  [ 50, 35, 40, 21, -24, -9 , ANIM]                                      \
+  [100, 35, 48, 23, -26, -12, ANIM]                                      \
+  [160, 35, 39, 30, -25, -20, ANIM]                                      \
+  [210, 35, 45, 33, -22, -21, ANIM]                                      \
+  [260, 35, 39, 30, -14, -20, ANIM]                                      \
+  [310, 35, 48, 23, -22, -11, ANIM]                                      \
+  [370, 35, 40, 21, -16, -9 , ANIM]                                      \
+}                                                                        \
+spriteset (name##_Climbing, IMAGEFILE)                                   \
+{                                                                        \
+  [  0, 70, 44, 36, -22, -18, ANIM]                                      \
+  [ 50, 70, 39, 31, -20, -16, ANIM]                                      \
+  [100, 70, 50, 22, -25, -11, ANIM]                                      \
+  [160, 70, 37, 21, -19, -11, ANIM]                                      \
+  [210, 70, 42, 15, -21, -8 , ANIM]                                      \
+  [260, 70, 37, 21, -19, -11, ANIM]                                      \
+  [310, 70, 50, 22, -25, -11, ANIM]                                      \
+  [370, 70, 39, 31, -40, -16, ANIM]                                      \
+}                                                                        \
+spriteset (name##_Touchdown, IMAGEFILE)                                  \
+{                                                                        \
+  [  0, 120, 44, 23, -22, -12, ANIM]                                     \
+  [ 50, 120, 40, 21, -20, -11, ANIM]                                     \
+  [100, 120, 48, 22, -24, -11, ANIM]                                     \
+  [160, 120, 39, 30, -20, -15, ANIM]                                     \
+  [210, 120, 44, 28, -11, -14, ANIM]                                     \
+  [260, 120, 39, 30, -20, -15, ANIM]                                     \
+  [310, 120, 48, 22, -24, -11, ANIM]                                     \
+  [370, 120, 40, 21, -20, -11, ANIM]                                     \
+}                                                                        \
+spriteset (name##_Landing, IMAGEFILE)                                    \
+{                                                                        \
+  [  0, 160, 44, 29, -22, -15, ANIM]                                     \
+  [ 50, 160, 40, 25, -20, -13, ANIM]                                     \
+  [100, 160, 49, 22, -25, -11, ANIM]                                     \
+  [160, 160, 38, 26, -19, -13, ANIM]                                     \
+  [210, 160, 42, 22, -21, -11, ANIM]                                     \
+  [260, 160, 38, 26, -19, -13, ANIM]                                     \
+  [310, 160, 49, 22, -25, -11, ANIM]                                     \
+  [370, 160, 40, 25, -20, -13, ANIM]                                     \
+}                                                                        \
+
+// 灰阶基底（占位复用 A320-200 灰阶图）
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/(0)Greyscale.png"
+purchase_sprite(COMAC_C919, 310, 0, 48, 23, -24, -12)
+COMAC_C919_sprite_layout_template(COMAC_C919_Greyscale)
+#undef IMAGEFILE
+// 中国航司涂装（复用 A320-200 的占位精灵图；颜色映射由 2CC 调色板完成）
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/AirFrance.png"
+COMAC_C919_sprite_layout_template(COMAC_C919_AirChina)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/Lufthansa.png"
+COMAC_C919_sprite_layout_template(COMAC_C919_ChinaEastern)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/United.png"
+COMAC_C919_sprite_layout_template(COMAC_C919_ChinaSouthern)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/Turkish.png"
+COMAC_C919_sprite_layout_template(COMAC_C919_Hainan)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Airbus/A320/A320-200/Vietnam.png"
+COMAC_C919_sprite_layout_template(COMAC_C919_Xiamen)
+#undef IMAGEFILE
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_Greyscale, flight_state())
+{
+  15: COMAC_C919_Greyscale_Climbing;
+  18: COMAC_C919_Greyscale_Flight;
+  21: COMAC_C919_Greyscale_Landing;
+  22: COMAC_C919_Greyscale_Touchdown;
+      COMAC_C919_Greyscale_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_AirChina, flight_state())
+{
+  15: COMAC_C919_AirChina_Climbing;
+  18: COMAC_C919_AirChina_Flight;
+  21: COMAC_C919_AirChina_Landing;
+  22: COMAC_C919_AirChina_Touchdown;
+      COMAC_C919_AirChina_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_ChinaEastern, flight_state())
+{
+  15: COMAC_C919_ChinaEastern_Climbing;
+  18: COMAC_C919_ChinaEastern_Flight;
+  21: COMAC_C919_ChinaEastern_Landing;
+  22: COMAC_C919_ChinaEastern_Touchdown;
+      COMAC_C919_ChinaEastern_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_ChinaSouthern, flight_state())
+{
+  15: COMAC_C919_ChinaSouthern_Climbing;
+  18: COMAC_C919_ChinaSouthern_Flight;
+  21: COMAC_C919_ChinaSouthern_Landing;
+  22: COMAC_C919_ChinaSouthern_Touchdown;
+      COMAC_C919_ChinaSouthern_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_Hainan, flight_state())
+{
+  15: COMAC_C919_Hainan_Climbing;
+  18: COMAC_C919_Hainan_Flight;
+  21: COMAC_C919_Hainan_Landing;
+  22: COMAC_C919_Hainan_Touchdown;
+      COMAC_C919_Hainan_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_Xiamen, flight_state())
+{
+  15: COMAC_C919_Xiamen_Climbing;
+  18: COMAC_C919_Xiamen_Flight;
+  21: COMAC_C919_Xiamen_Landing;
+  22: COMAC_C919_Xiamen_Touchdown;
+      COMAC_C919_Xiamen_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_sprites, cargo_subtype)
+{
+  1: COMAC_C919_AirChina;
+  2: COMAC_C919_ChinaEastern;
+  3: COMAC_C919_ChinaSouthern;
+  4: COMAC_C919_Hainan;
+  5: COMAC_C919_Xiamen;
+     COMAC_C919_Greyscale;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_running_cost_factor, flight_state())
+{
+  plane_RC(77)
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_speed, flight_state())
+{
+  12..13: return plane_speed_kmh(257); // airplane waiting for take-off clearance, airplane taking off
+      15: return plane_speed_kmh(362); // airplane climbing after take-off
+      18: return plane_speed_kmh(902); // heading for tower contact point
+  16..20: return plane_speed_kmh(467); // in flight
+  21..22: return plane_speed_kmh(233); // airplane landing, airplane braking after touchdown
+          return plane_speed_kmh(201);
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_sound_effect, extra_callback_info1)
+{
+  SOUND_EVENT_START     : sound("src/sound/av_turbogo.wav");
+  SOUND_EVENT_TOUCHDOWN : sound("src/sound/av_landturbo.wav");
+                          return CB_RESULT_NO_SOUND;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_cargo_subtype_text, cargo_subtype)
+{
+  0: string(STR_VLIV_COMAC);
+  1: string(STR_VLIV_AIR_CHINA);
+  2: string(STR_VLIV_CHINA_EASTERN);
+  3: string(STR_VLIV_CHINA_SOUTHERN);
+  4: string(STR_VLIV_HAINAN_AIRLINES);
+  5: string(STR_VLIV_XIAMEN_AIR);
+     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C919_cargo_subtype_capacity, cargo_subtype)
+{
+  1: return 158; // Air China
+  2: return 158; // China Eastern
+  3: return 158; // China Southern
+  4: return 158; // Hainan
+  5: return 158; // Xiamen
+     return 158;
+}
+
+item (FEAT_AIRCRAFT, COMAC_C919)
+{
+  property
+  {
+    name: string(STR_AIRV_COMAC_C919);
+    climates_available: get_climates_available();
+    introduction_date: date(get_plane_year(2025), 1, 1);
+    vehicle_life: 30;
+    model_life: get_model_life(2022,2259);
+    retire_early: get_retire_early(2022,2259);
+
+    sprite_id: SPRITE_ID_NEW_AIRCRAFT;
+    aircraft_type: AIRCRAFT_TYPE_SMALL;
+    misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
+    cargo_allow_refit: [PASS, TOUR];
+    reliability_decay: 20;
+    loading_speed: 22;
+    passenger_capacity: 158;
+    mail_capacity: 16;
+    acceleration: 27;                  // in 27,75 mph/day
+    range: 1020;
+    sound_effect: SOUND_TAKEOFF_JET;
+  }
+  graphics {
+    default: COMAC_C919_sprites;
+    purchase: COMAC_C919_purchase_sprite;
+    colour_mapping: PALETTE_CC_FIRST;
+
+    cargo_subtype_text: COMAC_C919_cargo_subtype_text;
+	passenger_capacity: COMAC_C919_cargo_subtype_capacity;
+    speed: COMAC_C919_speed;
+    running_cost_factor: COMAC_C919_running_cost_factor;
+    sound_effect: COMAC_C919_sound_effect;
+
+    cost_factor: 73;
+    purchase_running_cost_factor: 77;
+    purchase_speed: plane_speed_kmh(902);
+  }
+}
+
+if (Ranges == 0)
+{
+  item (FEAT_AIRCRAFT, COMAC_C919)
+  {
+    property
+    { range: 0; }
+  }
+}
+
+if (Ranges == 1)
+{
+  item (FEAT_AIRCRAFT, COMAC_C919)
+  {
+    property
+    { range: 1020; }
+  }
+}
+
+if (Ranges == 2)
+{
+  item (FEAT_AIRCRAFT, COMAC_C919)
+  {
+    property
+    { range: 1535; }
+  }
+}

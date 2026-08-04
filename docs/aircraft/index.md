@@ -4,9 +4,9 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 
 ## 统计
 
-- **机型总数**：145
-- **涂装总数**：1730（含默认灰阶基础图）
-- **制造商数**：14
+- **机型总数**：147
+- **涂装总数**：1742（含默认灰阶基础图）
+- **制造商数**：15
 
 ## 制造商索引
 
@@ -26,6 +26,7 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 | 麦克唐纳·道格拉斯 (McDonnell_Douglas) | 21 | 183 | [查看](mcdonnell_douglas.md) |
 | SUD 宇航 (SUD) | 1 | 16 | [查看](sud.md) |
 | 图波列夫 (Tupolev) | 3 | 45 | [查看](tupolev.md) |
+| COMAC (COMAC) | 2 | 12 | [查看](comac.md) |
 
 ---
 
@@ -178,3 +179,5 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 | 图波列夫 图-134 | 图波列夫 | 1964 | 16 | [详情](tupolev.md#tupolev_tu134) |
 | 图波列夫 图-154B | 图波列夫 | 1964 | 13 | [详情](tupolev.md#tupolev_tu154b) |
 | 图波列夫 图-154M | 图波列夫 | 1964 | 16 | [详情](tupolev.md#tupolev_tu154m) |
+| 中国商飞 C909 | COMAC | 2015 | 6 | [详情](comac.md#comac_c909) |
+| 中国商飞 C919 | COMAC | 2023 | 6 | [详情](comac.md#comac_c919) |

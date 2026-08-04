@@ -1,0 +1,259 @@
+
+// COMAC-C909
+// 说明：C909（原 ARJ21 支线喷气）的真实机型逻辑与参数。
+// 图形（5 状态 × 8 帧像素精灵）目前复用 Embraer E190STD 的占位精灵表，
+// 待真实 C909 像素图绘制完成后替换 src/gfx/COMAC/C909/ 下的 PNG 即可，逻辑无需改动。
+
+// 占位模板（与 Embraer E190STD 完全一致，坐标对应占位 PNG 布局）
+#define COMAC_C909_sprite_layout_template(name)                          \
+spriteset (name##_Flight, IMAGEFILE)                                     \
+{                                                                        \
+  [  1, 1, 37, 22, -19, -11, ANIM]                                       \
+  [ 47, 1, 35, 18, -18, -9 , ANIM]                                       \
+  [ 87, 1, 45, 21, -23, -11, ANIM]                                       \
+  [137, 2, 34, 23, -17, -12, ANIM]                                       \
+  [175, 2, 33, 29, -17, -15, ANIM]                                       \
+  [215, 2, 34, 23, -17, -12, ANIM]                                       \
+  [255, 1, 45, 21, -23, -11, ANIM]                                       \
+  [305, 1, 35, 18, -18, -9 , ANIM]                                       \
+}                                                                        \
+spriteset (name##_Grounded, IMAGEFILE)                                   \
+{                                                                        \
+  [  1, 35, 37, 22, -19, -11, ANIM]                                      \
+  [ 47, 35, 35, 18, -18, -9 , ANIM]                                      \
+  [ 87, 35, 45, 21, -23, -11, ANIM]                                      \
+  [137, 36, 34, 24, -17, -12, ANIM]                                      \
+  [175, 36, 33, 29, -17, -15, ANIM]                                      \
+  [215, 36, 34, 24, -17, -12, ANIM]                                      \
+  [255, 35, 45, 21, -23, -11, ANIM]                                      \
+  [305, 35, 35, 18, -18, -9 , ANIM]                                      \
+}                                                                        \
+spriteset (name##_Climbing, IMAGEFILE)                                   \
+{                                                                        \
+  [  1, 70, 39, 30, -20, -15, ANIM]                                      \
+  [ 48, 70, 34, 26, -17, -13, ANIM]                                      \
+  [ 87, 70, 45, 20, -23, -10, ANIM]                                      \
+  [136, 70, 35, 18, -18, -9 , ANIM]                                      \
+  [175, 71, 35, 14, -18, -7 , ANIM]                                      \
+  [215, 70, 35, 18, -18, -9 , ANIM]                                      \
+  [255, 70, 45, 20, -23, -10, ANIM]                                      \
+  [305, 70, 34, 26, -17, -13, ANIM]                                      \
+}                                                                        \
+spriteset (name##_Touchdown, IMAGEFILE)                                  \
+{                                                                        \
+  [  1, 105, 37, 22, -19, -11, ANIM]                                     \
+  [ 47, 105, 35, 18, -18, -9 , ANIM]                                     \
+  [ 87, 105, 45, 21, -23, -11, ANIM]                                     \
+  [137, 106, 34, 24, -16, -12, ANIM]                                     \
+  [175, 106, 33, 29, -16, -15, ANIM]                                     \
+  [215, 106, 34, 24, -16, -12, ANIM]                                     \
+  [255, 105, 45, 21, -23, -11, ANIM]                                     \
+  [305, 105, 35, 18, -18, -9 , ANIM]                                     \
+}                                                                        \
+spriteset (name##_Landing, IMAGEFILE)                                    \
+{                                                                        \
+  [  1, 140, 39, 24, -20, -12, ANIM]                                     \
+  [ 48, 140, 34, 21, -17, -11, ANIM]                                     \
+  [ 87, 140, 43, 23, -22, -12, ANIM]                                     \
+  [136, 140, 35, 21, -18, -11, ANIM]                                     \
+  [175, 141, 33, 21, -16, -11, ANIM]                                     \
+  [215, 140, 35, 21, -18, -11, ANIM]                                     \
+  [255, 140, 43, 23, -22, -12, ANIM]                                     \
+  [305, 140, 34, 21, -17, -11, ANIM]                                     \
+}                                                                        \
+
+// 灰阶基底（占位复用 E190STD 灰阶图）
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/(0)Greyscale.png"
+purchase_sprite(COMAC_C909, 255, 1, 45, 21, -23, -11)
+COMAC_C909_sprite_layout_template(COMAC_C909_Greyscale)
+#undef IMAGEFILE
+// 中国航司涂装（复用 E190STD 的占位精灵图；颜色映射由 2CC 调色板完成）
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/Alitalia.png"
+COMAC_C909_sprite_layout_template(COMAC_C909_AirChina)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/BACityflyer.png"
+COMAC_C909_sprite_layout_template(COMAC_C909_ChinaEastern)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/BulgariaAir.png"
+COMAC_C909_sprite_layout_template(COMAC_C909_ChinaSouthern)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/HOP.png"
+COMAC_C909_sprite_layout_template(COMAC_C909_Hainan)
+#undef IMAGEFILE
+#define IMAGEFILE  "src/gfx/Embraer/E190/E190STD/KLMCityhopper.png"
+COMAC_C909_sprite_layout_template(COMAC_C909_Xiamen)
+#undef IMAGEFILE
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_Greyscale, flight_state())
+{
+  15: COMAC_C909_Greyscale_Climbing;
+  18: COMAC_C909_Greyscale_Flight;
+  21: COMAC_C909_Greyscale_Landing;
+  22: COMAC_C909_Greyscale_Touchdown;
+      COMAC_C909_Greyscale_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_AirChina, flight_state())
+{
+  15: COMAC_C909_AirChina_Climbing;
+  18: COMAC_C909_AirChina_Flight;
+  21: COMAC_C909_AirChina_Landing;
+  22: COMAC_C909_AirChina_Touchdown;
+      COMAC_C909_AirChina_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_ChinaEastern, flight_state())
+{
+  15: COMAC_C909_ChinaEastern_Climbing;
+  18: COMAC_C909_ChinaEastern_Flight;
+  21: COMAC_C909_ChinaEastern_Landing;
+  22: COMAC_C909_ChinaEastern_Touchdown;
+      COMAC_C909_ChinaEastern_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_ChinaSouthern, flight_state())
+{
+  15: COMAC_C909_ChinaSouthern_Climbing;
+  18: COMAC_C909_ChinaSouthern_Flight;
+  21: COMAC_C909_ChinaSouthern_Landing;
+  22: COMAC_C909_ChinaSouthern_Touchdown;
+      COMAC_C909_ChinaSouthern_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_Hainan, flight_state())
+{
+  15: COMAC_C909_Hainan_Climbing;
+  18: COMAC_C909_Hainan_Flight;
+  21: COMAC_C909_Hainan_Landing;
+  22: COMAC_C909_Hainan_Touchdown;
+      COMAC_C909_Hainan_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_Xiamen, flight_state())
+{
+  15: COMAC_C909_Xiamen_Climbing;
+  18: COMAC_C909_Xiamen_Flight;
+  21: COMAC_C909_Xiamen_Landing;
+  22: COMAC_C909_Xiamen_Touchdown;
+      COMAC_C909_Xiamen_Grounded;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_sprites, cargo_subtype)
+{
+  1: COMAC_C909_AirChina;
+  2: COMAC_C909_ChinaEastern;
+  3: COMAC_C909_ChinaSouthern;
+  4: COMAC_C909_Hainan;
+  5: COMAC_C909_Xiamen;
+     COMAC_C909_Greyscale;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_running_cost_factor, flight_state())
+{
+  plane_RC(29)
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_speed, flight_state())
+{
+  12..13: return plane_speed_kmh(241); // airplane waiting for take-off clearance, airplane taking off
+      15: return plane_speed_kmh(410); // airplane climbing after take-off
+      18: return plane_speed_kmh(886); // heading for tower contact point
+  16..20: return plane_speed_kmh(427); // in flight
+  21..22: return plane_speed_kmh(273); // airplane landing, airplane braking after touchdown
+          return plane_speed_kmh(201);
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_sound_effect, extra_callback_info1)
+{
+  SOUND_EVENT_START     : sound("src/sound/av_turbogo.wav");
+  SOUND_EVENT_TOUCHDOWN : sound("src/sound/av_landturbo.wav");
+                          return CB_RESULT_NO_SOUND;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_cargo_subtype_text, cargo_subtype)
+{
+  0: string(STR_VLIV_COMAC);
+  1: string(STR_VLIV_AIR_CHINA);
+  2: string(STR_VLIV_CHINA_EASTERN);
+  3: string(STR_VLIV_CHINA_SOUTHERN);
+  4: string(STR_VLIV_HAINAN_AIRLINES);
+  5: string(STR_VLIV_XIAMEN_AIR);
+     return CB_RESULT_NO_TEXT;
+}
+
+switch (FEAT_AIRCRAFT, SELF, COMAC_C909_cargo_subtype_capacity, cargo_subtype)
+{
+  1: return 90; // Air China
+  2: return 90; // China Eastern
+  3: return 90; // China Southern
+  4: return 90; // Hainan
+  5: return 90; // Xiamen
+     return 90;
+}
+
+item (FEAT_AIRCRAFT, COMAC_C909)
+{
+  property
+  {
+    name: string(STR_AIRV_COMAC_C909);
+    climates_available: get_climates_available();
+    introduction_date: date(get_plane_year(2017), 1, 1);
+    vehicle_life: 30;
+    model_life: get_model_life(2016,2259);
+    retire_early: get_retire_early(2016,2259);
+
+    sprite_id: SPRITE_ID_NEW_AIRCRAFT;
+    aircraft_type: AIRCRAFT_TYPE_SMALL;
+    misc_flags: bitmask(AIRCRAFT_FLAG_2CC);
+    cargo_allow_refit: [PASS, TOUR];
+    reliability_decay: 20;
+    loading_speed: 19;
+    passenger_capacity: 90;
+    mail_capacity: 9;
+    acceleration: 27;                  // in 27,75 mph/day
+    range: 600;
+    sound_effect: SOUND_TAKEOFF_JET;
+  }
+  graphics {
+    default: COMAC_C909_sprites;
+    purchase: COMAC_C909_purchase_sprite;
+    colour_mapping: PALETTE_CC_FIRST;
+
+    cargo_subtype_text: COMAC_C909_cargo_subtype_text;
+	passenger_capacity: COMAC_C909_cargo_subtype_capacity;
+    speed: COMAC_C909_speed;
+    running_cost_factor: COMAC_C909_running_cost_factor;
+    sound_effect: COMAC_C909_sound_effect;
+
+    cost_factor: 65;
+    purchase_running_cost_factor: 29;
+    purchase_speed: plane_speed_kmh(886);
+  }
+}
+
+if (Ranges == 0)
+{
+  item (FEAT_AIRCRAFT, COMAC_C909)
+  {
+    property
+    { range: 0; }
+  }
+}
+
+if (Ranges == 1)
+{
+  item (FEAT_AIRCRAFT, COMAC_C909)
+  {
+    property
+    { range: 600; }
+  }
+}
+
+if (Ranges == 2)
+{
+  item (FEAT_AIRCRAFT, COMAC_C909)
+  {
+    property
+    { range: 900; }
+  }
+}

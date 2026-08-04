@@ -154,6 +154,8 @@
 #include "src/gfx/Airbus/A300/A310-300F/A310-300F.pnml"
 #include "src/gfx/Airbus/A300/A310-200F/A310-200F.pnml"
 #include "src/gfx/Boeing/B727/B727-200F/B727-200F.pnml"
+#include "src/gfx/COMAC/C909/C909.pnml"
+#include "src/gfx/COMAC/C919/C919.pnml"
 
 // Sort order
 #include "src/sort_order.pnml"
