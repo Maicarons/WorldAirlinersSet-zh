@@ -15,11 +15,13 @@ hero:
 
 features:
   - title: 真实客机 + 真实涂装
-    details: 收录 140+ 种真实世界客机/货机型号，并可改装（refit）为对应航空公司的真实涂装。
+    details: 收录 145 种真实世界客机/货机型号，每种机型均附带真实航空公司涂装，可在图鉴中浏览。
     icon: ✈️
-  - title: 基于 NewGRF + NML
-    details: 使用 NML 语言编写，通过 C 预处理器组织 1000 多个源文件，由 CMake 驱动一站式构建。
-    icon: 🛠️
+    link: /aircraft/
+  - title: 机队图鉴
+    details: 从源文件提取全部 145 款机型与 1730 张涂装预览图，按制造商分类展示。
+    icon: 🖼️
+    link: /aircraft/
   - title: 多语言支持
     details: 内置 14 种语言文件（含简体中文），可在游戏中以玩家语言显示飞机与涂装的本地化名称。
     icon: 🌐
@@ -47,6 +49,7 @@ features:
 
 | 你想做的事 | 去这里 |
 | --- | --- |
+| 浏览全部飞机与涂装 | [机队图鉴](/aircraft/) |
 | 了解项目背景与目标 | [项目简介](/guide/introduction) |
 | 把 WAS 装进 OpenTTD 玩游戏 | [安装与使用](/guide/installation) |
 | 了解可调节的游戏参数 | [NewGRF 参数](/guide/parameters) |

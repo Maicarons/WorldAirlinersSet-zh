@@ -1,0 +1,53 @@
+/* 机队图鉴涂装画廊 */
+.livery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.livery-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 12px 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.livery-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.livery-card img {
+  width: auto;
+  height: 72px;
+  max-width: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.livery-name {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--vp-c-text-2);
+}
+
+.livery-name small {
+  display: block;
+  margin-top: 2px;
+  color: var(--vp-c-text-3);
+  font-size: 0.7rem;
+}
+
+/* 制造商页面的机型属性表稍微紧凑一点 */
+.vp-doc th,
+.vp-doc td {
+  white-space: nowrap;
+}

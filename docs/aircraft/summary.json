@@ -1,0 +1,90 @@
+{
+  "total_aircraft": 145,
+  "total_liveries": 1730,
+  "manufacturers": [
+    {
+      "en": "Airbus",
+      "zh": "空中客车",
+      "aircraft": 21,
+      "liveries": 451
+    },
+    {
+      "en": "Antonov",
+      "zh": "安东诺夫",
+      "aircraft": 2,
+      "liveries": 4
+    },
+    {
+      "en": "ATR",
+      "zh": "ATR",
+      "aircraft": 6,
+      "liveries": 37
+    },
+    {
+      "en": "BAC",
+      "zh": "BAC",
+      "aircraft": 5,
+      "liveries": 31
+    },
+    {
+      "en": "BAe",
+      "zh": "BAe",
+      "aircraft": 4,
+      "liveries": 30
+    },
+    {
+      "en": "Boeing",
+      "zh": "波音",
+      "aircraft": 49,
+      "liveries": 757
+    },
+    {
+      "en": "Bombardier",
+      "zh": "庞巴迪",
+      "aircraft": 17,
+      "liveries": 76
+    },
+    {
+      "en": "Embraer",
+      "zh": "巴航工业",
+      "aircraft": 11,
+      "liveries": 56
+    },
+    {
+      "en": "Fokker",
+      "zh": "福克",
+      "aircraft": 2,
+      "liveries": 29
+    },
+    {
+      "en": "Ilyushin",
+      "zh": "伊留申",
+      "aircraft": 2,
+      "liveries": 9
+    },
+    {
+      "en": "Lockheed",
+      "zh": "洛克希德",
+      "aircraft": 1,
+      "liveries": 6
+    },
+    {
+      "en": "McDonnell_Douglas",
+      "zh": "麦克唐纳·道格拉斯",
+      "aircraft": 21,
+      "liveries": 183
+    },
+    {
+      "en": "SUD",
+      "zh": "SUD 宇航",
+      "aircraft": 1,
+      "liveries": 16
+    },
+    {
+      "en": "Tupolev",
+      "zh": "图波列夫",
+      "aircraft": 3,
+      "liveries": 45
+    }
+  ]
+}

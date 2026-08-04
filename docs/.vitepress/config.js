@@ -33,6 +33,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
+      { text: '机队图鉴', link: '/aircraft/' },
       { text: '指南', link: '/guide/introduction' },
       { text: '构建', link: '/guide/building' },
       { text: '贡献', link: '/guide/contributing' },
@@ -73,6 +74,28 @@ export default defineConfig({
             { text: '更新日志', link: '/guide/changelog' },
             { text: '致谢名单', link: '/guide/credits' },
             { text: '许可协议', link: '/guide/license' }
+          ]
+        }
+      ],
+      '/aircraft/': [
+        { text: '机队图鉴总览', link: '/aircraft/' },
+        {
+          text: '制造商',
+          items: [
+            { text: '空中客车 Airbus', link: '/aircraft/airbus' },
+            { text: '安东诺夫 Antonov', link: '/aircraft/antonov' },
+            { text: 'ATR', link: '/aircraft/atr' },
+            { text: 'BAC', link: '/aircraft/bac' },
+            { text: 'BAe', link: '/aircraft/bae' },
+            { text: '波音 Boeing', link: '/aircraft/boeing' },
+            { text: '庞巴迪 Bombardier', link: '/aircraft/bombardier' },
+            { text: '巴航工业 Embraer', link: '/aircraft/embraer' },
+            { text: '福克 Fokker', link: '/aircraft/fokker' },
+            { text: '伊留申 Ilyushin', link: '/aircraft/ilyushin' },
+            { text: '洛克希德 Lockheed', link: '/aircraft/lockheed' },
+            { text: '麦克唐纳·道格拉斯 McDonnell Douglas', link: '/aircraft/mcdonnell_douglas' },
+            { text: 'SUD 宇航', link: '/aircraft/sud' },
+            { text: '图波列夫 Tupolev', link: '/aircraft/tupolev' }
           ]
         }
       ]
