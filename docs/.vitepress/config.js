@@ -1,18 +1,36 @@
 import { defineConfig } from 'vitepress'
 
+const repo = 'Maicarons/WorldAirlinersSet-zh'
+
 export default defineConfig({
+  // 部署到 GitHub Pages 项目页（https://<user>.github.io/<repo>/）时，
+  // 所有资源/路由必须以仓库名为 base，否则 CSS/JS/图片路径全部 404。
+  base: '/WorldAirlinersSet-zh/',
   title: 'World Airliner Set (WAS)',
-  description: 'World Airliner Set —— 为 OpenTTD 提供的真实世界客机与涂装 NewGRF 项目文档',
+  description: 'World Airliner Set —— 为 OpenTTD 提供的真实世界客机与涂装 NewGRF 项目中文文档',
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
 
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }]
+    ['link', { rel: 'icon', href: '/WorldAirlinersSet-zh/logo.png' }],
+    // SEO / 社交分享
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'World Airliner Set (WAS) 中文文档' }],
+    ['meta', { property: 'og:description', content: '为 OpenTTD 打造的真实世界客机与涂装 NewGRF 项目中文文档' }],
+    ['meta', { property: 'og:site_name', content: 'WAS 中文文档' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }]
   ],
 
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/WorldAirlinersSet-zh/logo.png',
+
+    editLink: {
+      pattern: `https://github.com/${repo}/edit/main/docs/:path`,
+      text: '在 GitHub 上编辑此页'
+    },
+
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/introduction' },
@@ -22,7 +40,8 @@ export default defineConfig({
         text: '外部链接',
         items: [
           { text: '开发主页 (dev.openttdcoop)', link: 'https://dev.openttdcoop.org/projects/worldairlinersset' },
-          { text: 'GitHub 仓库', link: 'https://github.com/RvP93/WorldAirlinersSet' },
+          { text: '本项目 GitHub 仓库', link: `https://github.com/${repo}` },
+          { text: '上游仓库 (RvP93)', link: 'https://github.com/RvP93/WorldAirlinersSet' },
           { text: '许可协议 GPL-3.0', link: '/guide/license' }
         ]
       }
@@ -60,7 +79,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/RvP93/WorldAirlinersSet' }
+      { icon: 'github', link: `https://github.com/${repo}` }
     ],
 
     search: {
