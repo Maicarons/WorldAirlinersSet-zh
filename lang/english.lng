@@ -180,6 +180,10 @@ STR_AIRV_AIRBUS_A350_1000                                        :Airbus A350-10
 STR_AIRV_AIRBUS_A220_300                                         :Airbus A220-300
 STR_AIRV_BOEING_737_MAX9                                         :Boeing 737 MAX 9
 STR_AIRV_BOEING_787_10                                           :Boeing 787-10
+STR_AIRV_AIRBUS_A319NEO                                          :Airbus A319neo
+STR_AIRV_BOEING_737_MAX10                                        :Boeing 737 MAX 10
+STR_AIRV_BOEING_777X                                             :Boeing 777X
+STR_AIRV_EMBRAER_E195_E2                                         :Embraer E195-E2
 #
 # ------- Livery Names -------
 STR_VLIV_MANUFACTURERS                                          : Manufacturers

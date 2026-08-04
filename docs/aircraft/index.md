@@ -4,22 +4,22 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 
 ## 统计
 
-- **机型总数**：153
-- **涂装总数**：1867（含默认灰阶基础图）
+- **机型总数**：157
+- **涂装总数**：1957（含默认灰阶基础图）
 - **制造商数**：15
 
 ## 制造商索引
 
 | 制造商 | 机型数 | 涂装数 | 图鉴页 |
 |---|---|---|---|
-| 空中客车 (Airbus) | 25 | 534 | [查看](airbus.md) |
+| 空中客车 (Airbus) | 26 | 556 | [查看](airbus.md) |
 | 安东诺夫 (Antonov) | 2 | 4 | [查看](antonov.md) |
 | ATR (ATR) | 6 | 37 | [查看](atr.md) |
 | BAC (BAC) | 5 | 31 | [查看](bac.md) |
 | BAe (BAe) | 4 | 30 | [查看](bae.md) |
-| 波音 (Boeing) | 51 | 799 | [查看](boeing.md) |
+| 波音 (Boeing) | 53 | 856 | [查看](boeing.md) |
 | 庞巴迪 (Bombardier) | 17 | 76 | [查看](bombardier.md) |
-| 巴航工业 (Embraer) | 11 | 56 | [查看](embraer.md) |
+| 巴航工业 (Embraer) | 12 | 67 | [查看](embraer.md) |
 | 福克 (Fokker) | 2 | 29 | [查看](fokker.md) |
 | 伊留申 (Ilyushin) | 2 | 9 | [查看](ilyushin.md) |
 | 洛克希德 (Lockheed) | 1 | 6 | [查看](lockheed.md) |
@@ -59,6 +59,7 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 | 空客 A330-900neo | 空中客车 | 2016 | 32 | [详情](airbus.md#airbus_a330_900neo) |
 | 空客 A350-1000 | 空中客车 | 2016 | 7 | [详情](airbus.md#airbus_a350_1000) |
 | 空客 A220-300 | 空中客车 | 2014 | 22 | [详情](airbus.md#airbus_a220_300) |
+| 空客 A319neo | 空中客车 | 2015 | 22 | [详情](airbus.md#airbus_a319neo) |
 | 安东诺夫 安-124 | 安东诺夫 | 1984 | 2 | [详情](antonov.md#antonov_124) |
 | 安东诺夫 安-225 | 安东诺夫 | 1986 | 2 | [详情](antonov.md#antonov_225) |
 | ATR 42-300 | ATR | 1982 | 7 | [详情](atr.md#atr_42_300) |
@@ -127,6 +128,8 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 | 波音 727-200F | 波音 | 1970 | 3 | [详情](boeing.md#boeing_727_200f) |
 | 波音 737 MAX 9 | 波音 | 2016 | 23 | [详情](boeing.md#boeing_737_max9) |
 | 波音 787-10 | 波音 | 2016 | 19 | [详情](boeing.md#boeing_787_10) |
+| 波音 737 MAX 10 | 波音 | 2019 | 23 | [详情](boeing.md#boeing_737_max10) |
+| 波音 777X | 波音 | 2018 | 34 | [详情](boeing.md#boeing_777x) |
 | 庞巴迪 CRJ-100ER | 庞巴迪 | 1990 | 5 | [详情](bombardier.md#bombardier_crj100er) |
 | 庞巴迪 CRJ-100LR | 庞巴迪 | 1990 | 3 | [详情](bombardier.md#bombardier_crj100lr) |
 | 庞巴迪 CRJ-200ER | 庞巴迪 | 1994 | 7 | [详情](bombardier.md#bombardier_crj200er) |
@@ -155,6 +158,7 @@ World Airliner Set 收录了来自多家制造商的真实世界客机。本图�
 | 巴航工 E175 LR | 巴航工业 | 2003 | 3 | [详情](embraer.md#embraer_e175lr) |
 | 巴航工 E170 STD | 巴航工业 | 2002 | 3 | [详情](embraer.md#embraer_e170std) |
 | 巴航工 E145 | 巴航工业 | 1994 | 3 | [详情](embraer.md#embraer_erj145) |
+| 巴航工 E195-E2 | 巴航工业 | 2017 | 11 | [详情](embraer.md#embraer_e195_e2) |
 | 福克 70 | 福克 | 1990 | 6 | [详情](fokker.md#fokker_f70) |
 | 福克 100 | 福克 | 1984 | 23 | [详情](fokker.md#fokker_f100) |
 | 伊尔-62 | 伊留申 | 1965 | 8 | [详情](ilyushin.md#ilyushin_62) |

@@ -181,6 +181,10 @@ STR_AIRV_AIRBUS_A350_1000                                        :空客 A350-10
 STR_AIRV_AIRBUS_A220_300                                         :空客 A220-300
 STR_AIRV_BOEING_737_MAX9                                         :波音 737 MAX 9
 STR_AIRV_BOEING_787_10                                           :波音 787-10
+STR_AIRV_AIRBUS_A319NEO                                          :空客 A319neo
+STR_AIRV_BOEING_737_MAX10                                        :波音 737 MAX 10
+STR_AIRV_BOEING_777X                                             :波音 777X
+STR_AIRV_EMBRAER_E195_E2                                         :巴航工 E195-E2
 #
 # ------- 出廠塗裝 Names -------
 STR_VLIV_MANUFACTURERS                                          :製造商

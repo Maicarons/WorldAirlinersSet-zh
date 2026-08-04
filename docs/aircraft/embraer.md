@@ -1,6 +1,6 @@
 # 巴航工业 (Embraer)
 
-本页收录 **巴航工业** 制造的 11 款机型，共 56 张涂装预览图（含默认灰阶）。
+本页收录 **巴航工业** 制造的 12 款机型，共 67 张涂装预览图（含默认灰阶）。
 
 ---
 
@@ -476,6 +476,73 @@
   <div class="livery-card">
     <img src="/aircraft/Embraer_ERJ145/002_Lagunair.png" alt="拉古纳航空" loading="lazy">
     <div class="livery-name">拉古纳航空<br><small>LagunAir</small></div>
+  </div>
+</div>
+
+---
+
+## 巴航工 E195-E2 <small>(Embraer E195-E2)</small> {#embraer_e195_e2}
+
+- **内部 ID**：`Embraer_E195_E2`
+- **英文名**：Embraer E195-E2
+
+| 属性 | 数值 |
+|---|---|
+| 引入年份 | 2017 |
+| 乘客容量 | 146 |
+| 邮件容量 | 15 |
+| 巡航速度 | 890 km/h |
+| 设计航程 | 1050 |
+| 加速性能 | 27 |
+| 机型类别 | 小型 |
+| 成本系数 | 44 |
+
+### 涂装预览（11 种）
+
+<div class="livery-grid">
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/000_0_Greyscale.png" alt="巴航工 出厂涂装" loading="lazy">
+    <div class="livery-name">巴航工 出厂涂装<br><small>Embraer Livery</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/001_AirDolomiti.png" alt="多洛米蒂航空" loading="lazy">
+    <div class="livery-name">多洛米蒂航空<br><small>Air Dolomiti</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/002_AirEuropa.png" alt="西班牙欧洲航空" loading="lazy">
+    <div class="livery-name">西班牙欧洲航空<br><small>Air Europa</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/003_AirEuropaOld.png" alt="西班牙欧洲航空 (旧)" loading="lazy">
+    <div class="livery-name">西班牙欧洲航空 (旧)<br><small>Air Europa (Old)</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/004_Austrian.png" alt="奥地利航空" loading="lazy">
+    <div class="livery-name">奥地利航空<br><small>Austrian Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/005_Belavia.png" alt="白俄罗斯航空" loading="lazy">
+    <div class="livery-name">白俄罗斯航空<br><small>Belavia</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/006_Flybe.png" alt="弗莱比航空" loading="lazy">
+    <div class="livery-name">弗莱比航空<br><small>Flybe</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/007_GreatDane.png" alt="大丹航空" loading="lazy">
+    <div class="livery-name">大丹航空<br><small>Great Dane Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/008_LOT.png" alt="波兰航空" loading="lazy">
+    <div class="livery-name">波兰航空<br><small>LOT Polish Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/009_Lufthansa.png" alt="汉莎航空" loading="lazy">
+    <div class="livery-name">汉莎航空<br><small>Lufthansa</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Embraer_E195_E2/010_Montenegro.png" alt="黑山航空" loading="lazy">
+    <div class="livery-name">黑山航空<br><small>Montenegro Airlines</small></div>
   </div>
 </div>
 

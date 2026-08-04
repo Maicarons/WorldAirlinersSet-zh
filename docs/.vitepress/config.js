@@ -64,7 +64,8 @@ export default defineConfig({
             { text: '项目结构', link: '/guide/project-structure' },
             { text: '从源码构建', link: '/guide/building' },
             { text: '涂装与图形', link: '/guide/liveries' },
-            { text: '语言翻译', link: '/guide/translating' }
+            { text: '语言翻译', link: '/guide/translating' },
+            { text: '占位机型待办', link: '/guide/placeholder-aircraft-todo' }
           ]
         },
         {

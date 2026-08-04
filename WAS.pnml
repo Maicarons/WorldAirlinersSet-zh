@@ -162,6 +162,10 @@
 #include "src/gfx/Airbus/A220/A220-300/A220-300.pnml"
 #include "src/gfx/Boeing/B737/B737MAX9/B737MAX9.pnml"
 #include "src/gfx/Boeing/B787/B787-10/B787-10.pnml"
+#include "src/gfx/Airbus/A320/A319neo/A319neo.pnml"
+#include "src/gfx/Boeing/B737/B737MAX10/B737MAX10.pnml"
+#include "src/gfx/Boeing/B777/B777X/B777X.pnml"
+#include "src/gfx/Embraer/E195/E195_E2/E195_E2.pnml"
 
 // Sort order
 #include "src/sort_order.pnml"

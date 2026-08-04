@@ -1,12 +1,12 @@
 {
-  "total_aircraft": 153,
-  "total_liveries": 1867,
+  "total_aircraft": 157,
+  "total_liveries": 1957,
   "manufacturers": [
     {
       "en": "Airbus",
       "zh": "空中客车",
-      "aircraft": 25,
-      "liveries": 534
+      "aircraft": 26,
+      "liveries": 556
     },
     {
       "en": "Antonov",
@@ -35,8 +35,8 @@
     {
       "en": "Boeing",
       "zh": "波音",
-      "aircraft": 51,
-      "liveries": 799
+      "aircraft": 53,
+      "liveries": 856
     },
     {
       "en": "Bombardier",
@@ -47,8 +47,8 @@
     {
       "en": "Embraer",
       "zh": "巴航工业",
-      "aircraft": 11,
-      "liveries": 56
+      "aircraft": 12,
+      "liveries": 67
     },
     {
       "en": "Fokker",

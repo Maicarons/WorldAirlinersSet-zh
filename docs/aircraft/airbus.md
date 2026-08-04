@@ -1,6 +1,6 @@
 # 空中客车 (Airbus)
 
-本页收录 **空中客车** 制造的 25 款机型，共 534 张涂装预览图（含默认灰阶）。
+本页收录 **空中客车** 制造的 26 款机型，共 556 张涂装预览图（含默认灰阶）。
 
 ---
 
@@ -2709,6 +2709,117 @@
   </div>
   <div class="livery-card">
     <img src="/aircraft/Airbus_A220_300/021_Wizz.png" alt="维兹航空" loading="lazy">
+    <div class="livery-name">维兹航空<br><small>Wizz Air</small></div>
+  </div>
+</div>
+
+---
+
+## 空客 A319neo <small>(Airbus A319neo)</small> {#airbus_a319neo}
+
+- **内部 ID**：`Airbus_A319neo`
+- **英文名**：Airbus A319neo
+
+| 属性 | 数值 |
+|---|---|
+| 引入年份 | 2015 |
+| 乘客容量 | 160 |
+| 邮件容量 | 16 |
+| 巡航速度 | 833 km/h |
+| 设计航程 | 1200 |
+| 加速性能 | 27 |
+| 机型类别 | 小型 |
+| 成本系数 | 95 |
+
+### 涂装预览（22 种）
+
+<div class="livery-grid">
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/000_0_Greyscale.png" alt="空客 出厂涂装" loading="lazy">
+    <div class="livery-name">空客 出厂涂装<br><small>Airbus Livery</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/001_Aegean.png" alt="爱琴海航空" loading="lazy">
+    <div class="livery-name">爱琴海航空<br><small>Aegean Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/002_AirCairo.png" alt="开罗航空" loading="lazy">
+    <div class="livery-name">开罗航空<br><small>Air Cairo</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/003_AirMalta.png" alt="马耳他航空" loading="lazy">
+    <div class="livery-name">马耳他航空<br><small>Air Malta</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/004_AtlanticAirways.png" alt="大西洋航空" loading="lazy">
+    <div class="livery-name">大西洋航空<br><small>Atlantic Airways</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/005_Austrian.png" alt="奥地利航空" loading="lazy">
+    <div class="livery-name">奥地利航空<br><small>Austrian Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/006_BritishAirways.png" alt="英国航空（米字旗）" loading="lazy">
+    <div class="livery-name">英国航空（米字旗）<br><small>British Airways (Union Flag)</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/007_Easyjet.png" alt="易捷航空" loading="lazy">
+    <div class="livery-name">易捷航空<br><small>EasyJet</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/008_EgyptAir.png" alt="埃及航空" loading="lazy">
+    <div class="livery-name">埃及航空<br><small>EgyptAir</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/009_Eurowings.png" alt="欧洲之翼航空" loading="lazy">
+    <div class="livery-name">欧洲之翼航空<br><small>Eurowings</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/010_Iberia.png" alt="西班牙国家航空" loading="lazy">
+    <div class="livery-name">西班牙国家航空<br><small>Iberia</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/011_Lufthansa.png" alt="汉莎航空" loading="lazy">
+    <div class="livery-name">汉莎航空<br><small>Lufthansa</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/012_Pegasus.png" alt="飞马航空" loading="lazy">
+    <div class="livery-name">飞马航空<br><small>Pegasus Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/013_S7.png" alt="S7 西伯利亚航空" loading="lazy">
+    <div class="livery-name">S7 西伯利亚航空<br><small>S7 Siberia Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/014_SAS.png" alt="北欧航空" loading="lazy">
+    <div class="livery-name">北欧航空<br><small>SAS</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/015_SriLankan.png" alt="斯里兰卡航空" loading="lazy">
+    <div class="livery-name">斯里兰卡航空<br><small>SriLankan Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/016_Swiss.png" alt="瑞士航空" loading="lazy">
+    <div class="livery-name">瑞士航空<br><small>Swissair</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/017_TAP.png" alt="葡萄牙航空" loading="lazy">
+    <div class="livery-name">葡萄牙航空<br><small>TAP Portugal</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/018_Tunisair.png" alt="突尼斯航空" loading="lazy">
+    <div class="livery-name">突尼斯航空<br><small>Tunisair</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/019_Ural.png" alt="乌拉尔航空" loading="lazy">
+    <div class="livery-name">乌拉尔航空<br><small>Ural Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/020_Vueling.png" alt="伏林航空" loading="lazy">
+    <div class="livery-name">伏林航空<br><small>Vueling Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Airbus_A319neo/021_Wizz.png" alt="维兹航空" loading="lazy">
     <div class="livery-name">维兹航空<br><small>Wizz Air</small></div>
   </div>
 </div>
