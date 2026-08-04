@@ -175,6 +175,12 @@ STR_AIRV_BOEING_TEST                                            :Test
 STR_AIRV_SKYLIFT_150                                            :SkyLift 150
 STR_AIRV_COMAC_C909                                              :中國商飛 C909
 STR_AIRV_COMAC_C919                                              :中國商飛 C919
+STR_AIRV_AIRBUS_A321NEO                                          :空客 A321neo
+STR_AIRV_AIRBUS_A330_900NEO                                      :空客 A330-900neo
+STR_AIRV_AIRBUS_A350_1000                                        :空客 A350-1000
+STR_AIRV_AIRBUS_A220_300                                         :空客 A220-300
+STR_AIRV_BOEING_737_MAX9                                         :波音 737 MAX 9
+STR_AIRV_BOEING_787_10                                           :波音 787-10
 #
 # ------- 出廠塗裝 Names -------
 STR_VLIV_MANUFACTURERS                                          :製造商

@@ -1,6 +1,6 @@
 # 波音 (Boeing)
 
-本页收录 **波音** 制造的 49 款机型，共 757 张涂装预览图（含默认灰阶）。
+本页收录 **波音** 制造的 51 款机型，共 799 张涂装预览图（含默认灰阶）。
 
 ---
 
@@ -4154,6 +4154,220 @@
   <div class="livery-card">
     <img src="/aircraft/Boeing_727_200F/002_FedExOld.png" alt="联邦快递 (旧)" loading="lazy">
     <div class="livery-name">联邦快递 (旧)<br><small>FedEx (Old)</small></div>
+  </div>
+</div>
+
+---
+
+## 波音 737 MAX 9 <small>(Boeing 737 MAX 9)</small> {#boeing_737_max9}
+
+- **内部 ID**：`Boeing_737_MAX9`
+- **英文名**：Boeing 737 MAX 9
+
+| 属性 | 数值 |
+|---|---|
+| 引入年份 | 2016 |
+| 乘客容量 | 178 |
+| 邮件容量 | 18 |
+| 巡航速度 | 975 km/h |
+| 设计航程 | 1250 |
+| 加速性能 | 27 |
+| 机型类别 | 小型 |
+| 成本系数 | 106 |
+
+### 涂装预览（23 种）
+
+<div class="livery-grid">
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/000_0_Greyscale.png" alt="波音 出厂涂装" loading="lazy">
+    <div class="livery-name">波音 出厂涂装<br><small>Boeing Livery</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/001_Aeromexico.png" alt="墨西哥航空" loading="lazy">
+    <div class="livery-name">墨西哥航空<br><small>Aeromexico</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/002_AirChina.png" alt="中国国际航空" loading="lazy">
+    <div class="livery-name">中国国际航空<br><small>Air China</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/003_AirEuropa.png" alt="西班牙欧洲航空" loading="lazy">
+    <div class="livery-name">西班牙欧洲航空<br><small>Air Europa</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/004_American.png" alt="美国航空" loading="lazy">
+    <div class="livery-name">美国航空<br><small>American Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/005_Belavia.png" alt="白俄罗斯航空" loading="lazy">
+    <div class="livery-name">白俄罗斯航空<br><small>Belavia</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/006_ChinaEastern.png" alt="中国东方航空" loading="lazy">
+    <div class="livery-name">中国东方航空<br><small>China Eastern Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/007_Corendon.png" alt="科伦登航空" loading="lazy">
+    <div class="livery-name">科伦登航空<br><small>Corendon Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/008_EnterAir.png" alt="安特航空" loading="lazy">
+    <div class="livery-name">安特航空<br><small>Enter Air</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/009_Ethiopian.png" alt="埃塞俄比亚航空" loading="lazy">
+    <div class="livery-name">埃塞俄比亚航空<br><small>Ethiopian Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/010_Fiji.png" alt="斐济航空" loading="lazy">
+    <div class="livery-name">斐济航空<br><small>Fiji Airways</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/011_Flydubai.png" alt="迪拜航空" loading="lazy">
+    <div class="livery-name">迪拜航空<br><small>Flydubai</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/012_Flyr.png" alt="Flyr 航空" loading="lazy">
+    <div class="livery-name">Flyr 航空<br><small>Flyr</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/013_Icelandair.png" alt="冰岛航空" loading="lazy">
+    <div class="livery-name">冰岛航空<br><small>Icelandair</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/014_LOT.png" alt="波兰航空" loading="lazy">
+    <div class="livery-name">波兰航空<br><small>LOT Polish Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/015_Mauritania.png" alt="毛里塔尼亚国际航空" loading="lazy">
+    <div class="livery-name">毛里塔尼亚国际航空<br><small>Mauritania Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/016_Norwegian.png" alt="挪威穿梭航空" loading="lazy">
+    <div class="livery-name">挪威穿梭航空<br><small>Norwegian Air</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/017_RoyalAirMaroc.png" alt="摩洛哥皇家航空" loading="lazy">
+    <div class="livery-name">摩洛哥皇家航空<br><small>Royal Air Maroc</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/018_Ryanair.png" alt="瑞安航空" loading="lazy">
+    <div class="livery-name">瑞安航空<br><small>Ryanair</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/019_SmartWings.png" alt="智能之翼航空" loading="lazy">
+    <div class="livery-name">智能之翼航空<br><small>Smart Wings</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/020_Sunwing.png" alt="太阳之翼航空" loading="lazy">
+    <div class="livery-name">太阳之翼航空<br><small>Sunwing Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/021_Turkish.png" alt="途易航空" loading="lazy">
+    <div class="livery-name">途易航空<br><small>TUI</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_737_MAX9/022_TUI.png" alt="土耳其航空" loading="lazy">
+    <div class="livery-name">土耳其航空<br><small>Turkish Airlines</small></div>
+  </div>
+</div>
+
+---
+
+## 波音 787-10 <small>(Boeing 787-10)</small> {#boeing_787_10}
+
+- **内部 ID**：`Boeing_787_10`
+- **英文名**：Boeing 787-10
+
+| 属性 | 数值 |
+|---|---|
+| 引入年份 | 2016 |
+| 乘客容量 | 330 |
+| 邮件容量 | 33 |
+| 巡航速度 | 943 km/h |
+| 设计航程 | 2400 |
+| 加速性能 | 27 |
+| 机型类别 | 大型 |
+| 成本系数 | 230 |
+
+### 涂装预览（19 种）
+
+<div class="livery-grid">
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/000_0_Greyscale.png" alt="波音 出厂涂装" loading="lazy">
+    <div class="livery-name">波音 出厂涂装<br><small>Boeing Livery</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/001_AirEuropa.png" alt="西班牙欧洲航空" loading="lazy">
+    <div class="livery-name">西班牙欧洲航空<br><small>Air Europa</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/002_AirFrance.png" alt="法国航空" loading="lazy">
+    <div class="livery-name">法国航空<br><small>Air France</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/003_AirNZ.png" alt="新西兰航空" loading="lazy">
+    <div class="livery-name">新西兰航空<br><small>Air New Zealand</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/004_American.png" alt="美国航空" loading="lazy">
+    <div class="livery-name">美国航空<br><small>American Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/005_BritishAirways.png" alt="英国航空（米字旗）" loading="lazy">
+    <div class="livery-name">英国航空（米字旗）<br><small>British Airways (Union Flag)</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/006_EgyptAir.png" alt="埃及航空" loading="lazy">
+    <div class="livery-name">埃及航空<br><small>EgyptAir</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/007_ElAl.png" alt="以色列航空" loading="lazy">
+    <div class="livery-name">以色列航空<br><small>El Al Israel Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/008_JAL.png" alt="日本航空" loading="lazy">
+    <div class="livery-name">日本航空<br><small>Japan Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/009_KLM.png" alt="荷兰皇家航空" loading="lazy">
+    <div class="livery-name">荷兰皇家航空<br><small>KLM</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/010_LAN.png" alt="智利国家航空" loading="lazy">
+    <div class="livery-name">智利国家航空<br><small>LAN Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/011_Neos.png" alt="勒奥斯航空" loading="lazy">
+    <div class="livery-name">勒奥斯航空<br><small>Neos</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/012_Qantas.png" alt="澳洲航空" loading="lazy">
+    <div class="livery-name">澳洲航空<br><small>Qantas</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/013_RoyalAirMaroc.png" alt="摩洛哥皇家航空" loading="lazy">
+    <div class="livery-name">摩洛哥皇家航空<br><small>Royal Air Maroc</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/014_TUI.png" alt="途易航空" loading="lazy">
+    <div class="livery-name">途易航空<br><small>TUI</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/015_Turkish.png" alt="土耳其航空" loading="lazy">
+    <div class="livery-name">土耳其航空<br><small>Turkish Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/016_United.png" alt="美国联合航空" loading="lazy">
+    <div class="livery-name">美国联合航空<br><small>United Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/017_Vietnam.png" alt="越南航空" loading="lazy">
+    <div class="livery-name">越南航空<br><small>Vietnam Airlines</small></div>
+  </div>
+  <div class="livery-card">
+    <img src="/aircraft/Boeing_787_10/018_VirginAtlantic.png" alt="维珍航空" loading="lazy">
+    <div class="livery-name">维珍航空<br><small>Virgin Atlantic</small></div>
   </div>
 </div>
 

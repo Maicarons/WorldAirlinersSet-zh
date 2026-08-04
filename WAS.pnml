@@ -156,6 +156,12 @@
 #include "src/gfx/Boeing/B727/B727-200F/B727-200F.pnml"
 #include "src/gfx/COMAC/C909/C909.pnml"
 #include "src/gfx/COMAC/C919/C919.pnml"
+#include "src/gfx/Airbus/A321/A321neo/A321neo.pnml"
+#include "src/gfx/Airbus/A330/A330-900neo/A330-900neo.pnml"
+#include "src/gfx/Airbus/A350/A350-1000/A350-1000.pnml"
+#include "src/gfx/Airbus/A220/A220-300/A220-300.pnml"
+#include "src/gfx/Boeing/B737/B737MAX9/B737MAX9.pnml"
+#include "src/gfx/Boeing/B787/B787-10/B787-10.pnml"
 
 // Sort order
 #include "src/sort_order.pnml"
