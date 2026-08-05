@@ -36,11 +36,13 @@ export default defineConfig({
       { text: '机队图鉴', link: '/aircraft/' },
       { text: '指南', link: '/guide/introduction' },
       { text: '构建', link: '/guide/building' },
+      { text: '下载', link: '/guide/download' },
       { text: '贡献', link: '/guide/contributing' },
       {
         text: '外部链接',
-        items: [
-          { text: '开发主页 (dev.openttdcoop)', link: 'https://dev.openttdcoop.org/projects/worldairlinersset' },
+          items: [
+            { text: '中文文档站', link: 'https://maicarons.github.io/WorldAirlinersSet-zh/' },
+            { text: '开发主页 (dev.openttdcoop)', link: 'https://dev.openttdcoop.org/projects/worldairlinersset' },
           { text: '本项目 GitHub 仓库', link: `https://github.com/${repo}` },
           { text: '上游仓库 (RvP93)', link: 'https://github.com/RvP93/WorldAirlinersSet' },
           { text: '许可协议 GPL-3.0', link: '/guide/license' }
@@ -55,6 +57,7 @@ export default defineConfig({
           items: [
             { text: '项目简介', link: '/guide/introduction' },
             { text: '安装与使用', link: '/guide/installation' },
+            { text: '下载模型', link: '/guide/download' },
             { text: 'NewGRF 参数', link: '/guide/parameters' }
           ]
         },

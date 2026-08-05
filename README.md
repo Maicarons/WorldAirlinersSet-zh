@@ -21,7 +21,7 @@
 
 完整的安装、参数、构建、涂装、翻译与贡献指南都在中文文档站：
 
-👉 **[WAS 中文文档站](docs/index.md)**（VitePress 源码位于 `docs/`，可在本地 `npm run docs:dev` 预览）
+👉 **[WAS 中文文档站](https://maicarons.github.io/WorldAirlinersSet-zh/)**（VitePress 源码位于 `docs/`，可在本地 `npm run docs:dev` 预览）
 
 | 你想做的事 | 去这里 |
 | --- | --- |
@@ -125,6 +125,7 @@ nmlc --grf=bin/WorldAirlinersSet.grf -c bin/WorldAirlinersSet.nml
 - 官方论坛：<http://worldairlinerset.forumotion.com/>
 - TT-Forums 讨论帖：<http://www.tt-forums.net/viewtopic.php?t=39227>
 - 上游代码仓库：<https://github.com/RvP93/WorldAirlinersSet>
+- WAS 中文文档站：<https://maicarons.github.io/WorldAirlinersSet-zh/>
 
 **WAS 团队**（上游）：Beardie、DJNekkid、Frank、Yorick、Faddypainter、RvP93、Aras、Audigex（开发）；EXTSpotter、Dimme、Simozzz、Trainboy2004、Firzafp 等（美术）。
 
