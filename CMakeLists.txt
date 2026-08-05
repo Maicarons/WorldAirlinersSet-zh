@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(WorldAirlinersSet VERSION 1.0 HOMEPAGE_URL https://github.com/RvP93/WorldAirlinersSet)
+project(WorldAirlinersSet VERSION 1.2 HOMEPAGE_URL https://github.com/RvP93/WorldAirlinersSet)
 #Project variables
 set(PROJECT_SHORT_NAME "WAS")
 set(PROJECT_SCRIPT_DIR ${PROJECT_SOURCE_DIR}/scripts)
